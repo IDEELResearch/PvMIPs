@@ -1,0 +1,485 @@
+29052596 242 11
+0 PvP01_01_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1021664 | SO=chromosome
+0 1021664 15
+0 PvP01_02_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=956327 | SO=chromosome
+1021664 956327 23
+0 PvP01_03_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=896704 | SO=chromosome
+1977991 896704 3
+0 PvP01_04_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1012024 | SO=chromosome
+2874695 1012024 6
+0 PvP01_05_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1524814 | SO=chromosome
+3886719 1524814 11
+0 PvP01_06_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1042791 | SO=chromosome
+5411533 1042791 6
+0 PvP01_07_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1652210 | SO=chromosome
+6454324 1652210 15
+0 PvP01_08_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1761288 | SO=chromosome
+8106534 1761288 10
+0 PvP01_09_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=2237066 | SO=chromosome
+9867822 2237066 7
+0 PvP01_10_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1548844 | SO=chromosome
+12104888 1548844 13
+0 PvP01_11_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=2131221 | SO=chromosome
+13653732 2131221 8
+0 PvP01_12_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=3182763 | SO=chromosome
+15784953 3182763 17
+0 PvP01_13_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=2093556 | SO=chromosome
+18967716 2093556 8
+0 PvP01_14_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=3153402 | SO=chromosome
+21061272 3153402 13
+0 PvP01_API_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=29582 | SO=apicoplast_chromosome
+24214674 29582 1
+0 PvP01_MIT_v1 | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=5989 | SO=mitochondrial_chromosome
+24244256 5989 0
+0 Transfer.PvP01_00_1.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=402823 | SO=contig
+24250245 402823 17
+0 Transfer.PvP01_00_10.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=132426 | SO=contig
+24653068 132426 15
+0 Transfer.PvP01_00_100.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=4184 | SO=contig
+24785494 4184 0
+0 Transfer.PvP01_00_101.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=4144 | SO=contig
+24789678 4144 1
+0 Transfer.PvP01_00_102.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=4062 | SO=contig
+24793822 4062 2
+0 Transfer.PvP01_00_103.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=3927 | SO=contig
+24797884 3927 1
+0 Transfer.PvP01_00_104.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=3914 | SO=contig
+24801811 3914 1
+0 Transfer.PvP01_00_105.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=3825 | SO=contig
+24805725 3825 1
+0 Transfer.PvP01_00_106.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=3796 | SO=contig
+24809550 3796 1
+0 Transfer.PvP01_00_107.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=3768 | SO=contig
+24813346 3768 0
+0 Transfer.PvP01_00_108.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=3767 | SO=contig
+24817114 3767 1
+0 Transfer.PvP01_00_109.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=3707 | SO=contig
+24820881 3707 0
+0 Transfer.PvP01_00_11.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=123358 | SO=contig
+24824588 123358 1
+0 Transfer.PvP01_00_110.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=3685 | SO=contig
+24947946 3685 0
+0 Transfer.PvP01_00_111.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=3501 | SO=contig
+24951631 3501 0
+0 Transfer.PvP01_00_113.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=3319 | SO=contig
+24955132 3319 0
+0 Transfer.PvP01_00_114.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=3094 | SO=contig
+24958451 3094 0
+0 Transfer.PvP01_00_115.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=2818 | SO=contig
+24961545 2818 1
+0 Transfer.PvP01_00_117.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=2649 | SO=contig
+24964363 2649 1
+0 Transfer.PvP01_00_118.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=2551 | SO=contig
+24967012 2551 0
+0 Transfer.PvP01_00_119.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=2537 | SO=contig
+24969563 2537 0
+0 Transfer.PvP01_00_12.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=118908 | SO=contig
+24972100 118908 6
+0 Transfer.PvP01_00_120.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=2521 | SO=contig
+25091008 2521 0
+0 Transfer.PvP01_00_121.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=2382 | SO=contig
+25093529 2382 0
+0 Transfer.PvP01_00_122.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=2370 | SO=contig
+25095911 2370 0
+0 Transfer.PvP01_00_123.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=2164 | SO=contig
+25098281 2164 0
+0 Transfer.PvP01_00_124.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=2157 | SO=contig
+25100445 2157 0
+0 Transfer.PvP01_00_125.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=2093 | SO=contig
+25102602 2093 0
+0 Transfer.PvP01_00_127.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=2029 | SO=contig
+25104695 2029 0
+0 Transfer.PvP01_00_129.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1921 | SO=contig
+25106724 1921 0
+0 Transfer.PvP01_00_13.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=111388 | SO=contig
+25108645 111388 4
+0 Transfer.PvP01_00_130.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1902 | SO=contig
+25220033 1902 0
+0 Transfer.PvP01_00_131.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1882 | SO=contig
+25221935 1882 0
+0 Transfer.PvP01_00_132.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1873 | SO=contig
+25223817 1873 0
+0 Transfer.PvP01_00_133.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1856 | SO=contig
+25225690 1856 0
+0 Transfer.PvP01_00_134.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1846 | SO=contig
+25227546 1846 0
+0 Transfer.PvP01_00_135.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1827 | SO=contig
+25229392 1827 0
+0 Transfer.PvP01_00_136.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1822 | SO=contig
+25231219 1822 0
+0 Transfer.PvP01_00_137.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1818 | SO=contig
+25233041 1818 0
+0 Transfer.PvP01_00_138.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1793 | SO=contig
+25234859 1793 0
+0 Transfer.PvP01_00_139.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1780 | SO=contig
+25236652 1780 0
+0 Transfer.PvP01_00_14.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=101449 | SO=contig
+25238432 101449 14
+0 Transfer.PvP01_00_140.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1769 | SO=contig
+25339881 1769 0
+0 Transfer.PvP01_00_141.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1738 | SO=contig
+25341650 1738 0
+0 Transfer.PvP01_00_143.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1720 | SO=contig
+25343388 1720 0
+0 Transfer.PvP01_00_144.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1657 | SO=contig
+25345108 1657 0
+0 Transfer.PvP01_00_145.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1648 | SO=contig
+25346765 1648 0
+0 Transfer.PvP01_00_146.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1634 | SO=contig
+25348413 1634 0
+0 Transfer.PvP01_00_147.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1626 | SO=contig
+25350047 1626 0
+0 Transfer.PvP01_00_148.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1615 | SO=contig
+25351673 1615 0
+0 Transfer.PvP01_00_15.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=98688 | SO=contig
+25353288 98688 16
+0 Transfer.PvP01_00_150.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1613 | SO=contig
+25451976 1613 0
+0 Transfer.PvP01_00_151.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1586 | SO=contig
+25453589 1586 0
+0 Transfer.PvP01_00_152.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1539 | SO=contig
+25455175 1539 0
+0 Transfer.PvP01_00_153.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1520 | SO=contig
+25456714 1520 0
+0 Transfer.PvP01_00_154.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1522 | SO=contig
+25458234 1522 0
+0 Transfer.PvP01_00_155.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1518 | SO=contig
+25459756 1518 0
+0 Transfer.PvP01_00_156.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1517 | SO=contig
+25461274 1517 0
+0 Transfer.PvP01_00_157.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1515 | SO=contig
+25462791 1515 0
+0 Transfer.PvP01_00_158.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1506 | SO=contig
+25464306 1506 0
+0 Transfer.PvP01_00_159.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1499 | SO=contig
+25465812 1499 0
+0 Transfer.PvP01_00_16.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=98334 | SO=contig
+25467311 98334 10
+0 Transfer.PvP01_00_160.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1482 | SO=contig
+25565645 1482 0
+0 Transfer.PvP01_00_161.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1499 | SO=contig
+25567127 1499 0
+0 Transfer.PvP01_00_162.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1469 | SO=contig
+25568626 1469 0
+0 Transfer.PvP01_00_163.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1459 | SO=contig
+25570095 1459 0
+0 Transfer.PvP01_00_164.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1442 | SO=contig
+25571554 1442 0
+0 Transfer.PvP01_00_166.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1425 | SO=contig
+25572996 1425 0
+0 Transfer.PvP01_00_167.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1433 | SO=contig
+25574421 1433 0
+0 Transfer.PvP01_00_169.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1410 | SO=contig
+25575854 1410 0
+0 Transfer.PvP01_00_17.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=94527 | SO=contig
+25577264 94527 5
+0 Transfer.PvP01_00_170.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1405 | SO=contig
+25671791 1405 0
+0 Transfer.PvP01_00_171.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1391 | SO=contig
+25673196 1391 0
+0 Transfer.PvP01_00_172.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1382 | SO=contig
+25674587 1382 0
+0 Transfer.PvP01_00_173.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1381 | SO=contig
+25675969 1381 0
+0 Transfer.PvP01_00_174.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1375 | SO=contig
+25677350 1375 0
+0 Transfer.PvP01_00_175.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1359 | SO=contig
+25678725 1359 0
+0 Transfer.PvP01_00_176.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1357 | SO=contig
+25680084 1357 0
+0 Transfer.PvP01_00_177.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1373 | SO=contig
+25681441 1373 0
+0 Transfer.PvP01_00_178.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1353 | SO=contig
+25682814 1353 0
+0 Transfer.PvP01_00_179.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1352 | SO=contig
+25684167 1352 0
+0 Transfer.PvP01_00_18.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=91632 | SO=contig
+25685519 91632 9
+0 Transfer.PvP01_00_180.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1346 | SO=contig
+25777151 1346 0
+0 Transfer.PvP01_00_181.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1335 | SO=contig
+25778497 1335 0
+0 Transfer.PvP01_00_182.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1320 | SO=contig
+25779832 1320 0
+0 Transfer.PvP01_00_183.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1308 | SO=contig
+25781152 1308 0
+0 Transfer.PvP01_00_184.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1306 | SO=contig
+25782460 1306 0
+0 Transfer.PvP01_00_185.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1295 | SO=contig
+25783766 1295 0
+0 Transfer.PvP01_00_186.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1291 | SO=contig
+25785061 1291 0
+0 Transfer.PvP01_00_187.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1289 | SO=contig
+25786352 1289 0
+0 Transfer.PvP01_00_188.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1287 | SO=contig
+25787641 1287 0
+0 Transfer.PvP01_00_189.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1274 | SO=contig
+25788928 1274 0
+0 Transfer.PvP01_00_19.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=86105 | SO=contig
+25790202 86105 5
+0 Transfer.PvP01_00_190.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1272 | SO=contig
+25876307 1272 0
+0 Transfer.PvP01_00_191.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1263 | SO=contig
+25877579 1263 0
+0 Transfer.PvP01_00_192.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1257 | SO=contig
+25878842 1257 0
+0 Transfer.PvP01_00_193.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1243 | SO=contig
+25880099 1243 0
+0 Transfer.PvP01_00_194.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1241 | SO=contig
+25881342 1241 0
+0 Transfer.PvP01_00_195.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1249 | SO=contig
+25882583 1249 0
+0 Transfer.PvP01_00_196.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1212 | SO=contig
+25883832 1212 0
+0 Transfer.PvP01_00_197.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1210 | SO=contig
+25885044 1210 0
+0 Transfer.PvP01_00_198.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1203 | SO=contig
+25886254 1203 0
+0 Transfer.PvP01_00_199.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1200 | SO=contig
+25887457 1200 0
+0 Transfer.PvP01_00_2.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=329406 | SO=contig
+25888657 329406 2
+0 Transfer.PvP01_00_20.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=72856 | SO=contig
+26218063 72856 3
+0 Transfer.PvP01_00_200.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1200 | SO=contig
+26290919 1200 0
+0 Transfer.PvP01_00_201.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1191 | SO=contig
+26292119 1191 0
+0 Transfer.PvP01_00_202.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1191 | SO=contig
+26293310 1191 0
+0 Transfer.PvP01_00_203.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1191 | SO=contig
+26294501 1191 0
+0 Transfer.PvP01_00_204.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1173 | SO=contig
+26295692 1173 0
+0 Transfer.PvP01_00_205.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1162 | SO=contig
+26296865 1162 0
+0 Transfer.PvP01_00_206.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1142 | SO=contig
+26298027 1142 0
+0 Transfer.PvP01_00_207.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1139 | SO=contig
+26299169 1139 0
+0 Transfer.PvP01_00_208.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1139 | SO=contig
+26300308 1139 0
+0 Transfer.PvP01_00_209.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1139 | SO=contig
+26301447 1139 0
+0 Transfer.PvP01_00_21.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=71907 | SO=contig
+26302586 71907 5
+0 Transfer.PvP01_00_210.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1136 | SO=contig
+26374493 1136 0
+0 Transfer.PvP01_00_211.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1132 | SO=contig
+26375629 1132 0
+0 Transfer.PvP01_00_212.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1130 | SO=contig
+26376761 1130 0
+0 Transfer.PvP01_00_213.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1128 | SO=contig
+26377891 1128 0
+0 Transfer.PvP01_00_214.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1124 | SO=contig
+26379019 1124 0
+0 Transfer.PvP01_00_215.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1113 | SO=contig
+26380143 1113 0
+0 Transfer.PvP01_00_216.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1107 | SO=contig
+26381256 1107 0
+0 Transfer.PvP01_00_217.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1100 | SO=contig
+26382363 1100 0
+0 Transfer.PvP01_00_218.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1092 | SO=contig
+26383463 1092 0
+0 Transfer.PvP01_00_219.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1089 | SO=contig
+26384555 1089 0
+0 Transfer.PvP01_00_22.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=61457 | SO=contig
+26385644 61457 9
+0 Transfer.PvP01_00_220.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1084 | SO=contig
+26447101 1084 0
+0 Transfer.PvP01_00_221.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1073 | SO=contig
+26448185 1073 0
+0 Transfer.PvP01_00_222.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1072 | SO=contig
+26449258 1072 0
+0 Transfer.PvP01_00_223.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1070 | SO=contig
+26450330 1070 0
+0 Transfer.PvP01_00_224.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1070 | SO=contig
+26451400 1070 0
+0 Transfer.PvP01_00_225.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1063 | SO=contig
+26452470 1063 0
+0 Transfer.PvP01_00_226.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1061 | SO=contig
+26453533 1061 0
+0 Transfer.PvP01_00_227.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1060 | SO=contig
+26454594 1060 0
+0 Transfer.PvP01_00_228.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1056 | SO=contig
+26455654 1056 0
+0 Transfer.PvP01_00_229.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1055 | SO=contig
+26456710 1055 0
+0 Transfer.PvP01_00_23.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=64741 | SO=contig
+26457765 64741 10
+0 Transfer.PvP01_00_230.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1055 | SO=contig
+26522506 1055 0
+0 Transfer.PvP01_00_231.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1053 | SO=contig
+26523561 1053 0
+0 Transfer.PvP01_00_232.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1067 | SO=contig
+26524614 1067 0
+0 Transfer.PvP01_00_233.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1039 | SO=contig
+26525681 1039 0
+0 Transfer.PvP01_00_234.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1037 | SO=contig
+26526720 1037 0
+0 Transfer.PvP01_00_235.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1020 | SO=contig
+26527757 1020 0
+0 Transfer.PvP01_00_236.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1019 | SO=contig
+26528777 1019 0
+0 Transfer.PvP01_00_237.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1015 | SO=contig
+26529796 1015 0
+0 Transfer.PvP01_00_238.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1011 | SO=contig
+26530811 1011 0
+0 Transfer.PvP01_00_239.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1007 | SO=contig
+26531822 1007 0
+0 Transfer.PvP01_00_24.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=64543 | SO=contig
+26532829 64543 5
+0 Transfer.PvP01_00_25.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=59933 | SO=contig
+26597372 59933 5
+0 Transfer.PvP01_00_26.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=58047 | SO=contig
+26657305 58047 10
+0 Transfer.PvP01_00_27.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=56610 | SO=contig
+26715352 56610 4
+0 Transfer.PvP01_00_28.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=47197 | SO=contig
+26771962 47197 6
+0 Transfer.PvP01_00_29.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=45364 | SO=contig
+26819159 45364 3
+0 Transfer.PvP01_00_3.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=213262 | SO=contig
+26864523 213262 11
+0 Transfer.PvP01_00_30.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=43143 | SO=contig
+27077785 43143 3
+0 Transfer.PvP01_00_300.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=44099 | SO=contig
+27120928 44099 7
+0 Transfer.PvP01_00_301.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=1608 | SO=contig
+27165027 1608 0
+0 Transfer.PvP01_00_31.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=41255 | SO=contig
+27166635 41255 8
+0 Transfer.PvP01_00_32.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=40940 | SO=contig
+27207890 40940 7
+0 Transfer.PvP01_00_33.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=39305 | SO=contig
+27248830 39305 4
+0 Transfer.PvP01_00_34.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=39018 | SO=contig
+27288135 39018 2
+0 Transfer.PvP01_00_35.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=36874 | SO=contig
+27327153 36874 7
+0 Transfer.PvP01_00_36.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=34802 | SO=contig
+27364027 34802 5
+0 Transfer.PvP01_00_37.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=34237 | SO=contig
+27398829 34237 0
+0 Transfer.PvP01_00_38.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=33748 | SO=contig
+27433066 33748 6
+0 Transfer.PvP01_00_39.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=30627 | SO=contig
+27466814 30627 1
+0 Transfer.PvP01_00_4.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=167607 | SO=contig
+27497441 167607 12
+0 Transfer.PvP01_00_40.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=27412 | SO=contig
+27665048 27412 2
+0 Transfer.PvP01_00_41.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=27035 | SO=contig
+27692460 27035 4
+0 Transfer.PvP01_00_42.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=26582 | SO=contig
+27719495 26582 3
+0 Transfer.PvP01_00_43.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=26325 | SO=contig
+27746077 26325 3
+0 Transfer.PvP01_00_44.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=25707 | SO=contig
+27772402 25707 3
+0 Transfer.PvP01_00_45.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=24787 | SO=contig
+27798109 24787 4
+0 Transfer.PvP01_00_46.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=24222 | SO=contig
+27822896 24222 6
+0 Transfer.PvP01_00_47.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=21501 | SO=contig
+27847118 21501 3
+0 Transfer.PvP01_00_48.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=21425 | SO=contig
+27868619 21425 5
+0 Transfer.PvP01_00_49.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=21386 | SO=contig
+27890044 21386 3
+0 Transfer.PvP01_00_5.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=153551 | SO=contig
+27911430 153551 10
+0 Transfer.PvP01_00_50.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=20857 | SO=contig
+28064981 20857 1
+0 Transfer.PvP01_00_51.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=20797 | SO=contig
+28085838 20797 4
+0 Transfer.PvP01_00_52.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=20223 | SO=contig
+28106635 20223 6
+0 Transfer.PvP01_00_53.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=19059 | SO=contig
+28126858 19059 3
+0 Transfer.PvP01_00_54.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=17847 | SO=contig
+28145917 17847 0
+0 Transfer.PvP01_00_55.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=10843 | SO=contig
+28163764 10843 5
+0 Transfer.PvP01_00_56.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=16781 | SO=contig
+28174607 16781 0
+0 Transfer.PvP01_00_57.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=16268 | SO=contig
+28191388 16268 3
+0 Transfer.PvP01_00_59.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=14706 | SO=contig
+28207656 14706 0
+0 Transfer.PvP01_00_6.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=148258 | SO=contig
+28222362 148258 7
+0 Transfer.PvP01_00_60.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=14647 | SO=contig
+28370620 14647 0
+0 Transfer.PvP01_00_61.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=14186 | SO=contig
+28385267 14186 3
+0 Transfer.PvP01_00_63.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=13646 | SO=contig
+28399453 13646 1
+0 Transfer.PvP01_00_64.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=12076 | SO=contig
+28413099 12076 6
+0 Transfer.PvP01_00_65.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=11608 | SO=contig
+28425175 11608 1
+0 Transfer.PvP01_00_66.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=10956 | SO=contig
+28436783 10956 2
+0 Transfer.PvP01_00_67.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=10707 | SO=contig
+28447739 10707 4
+0 Transfer.PvP01_00_69.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=10408 | SO=contig
+28458446 10408 3
+0 Transfer.PvP01_00_7.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=138489 | SO=contig
+28468854 138489 5
+0 Transfer.PvP01_00_70.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=10338 | SO=contig
+28607343 10338 2
+0 Transfer.PvP01_00_71.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=10042 | SO=contig
+28617681 10042 4
+0 Transfer.PvP01_00_73.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=9728 | SO=contig
+28627723 9728 2
+0 Transfer.PvP01_00_74.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=8944 | SO=contig
+28637451 8944 2
+0 Transfer.PvP01_00_75.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=8855 | SO=contig
+28646395 8855 1
+0 Transfer.PvP01_00_77.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=8141 | SO=contig
+28655250 8141 2
+0 Transfer.PvP01_00_78.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=8043 | SO=contig
+28663391 8043 3
+0 Transfer.PvP01_00_79.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=7954 | SO=contig
+28671434 7954 3
+0 Transfer.PvP01_00_8.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=136931 | SO=contig
+28679388 136931 7
+0 Transfer.PvP01_00_80.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=7518 | SO=contig
+28816319 7518 3
+0 Transfer.PvP01_00_81.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=7482 | SO=contig
+28823837 7482 1
+0 Transfer.PvP01_00_82.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=7384 | SO=contig
+28831319 7384 2
+0 Transfer.PvP01_00_83.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=6875 | SO=contig
+28838703 6875 1
+0 Transfer.PvP01_00_84.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=6603 | SO=contig
+28845578 6603 0
+0 Transfer.PvP01_00_85.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=6500 | SO=contig
+28852181 6500 2
+0 Transfer.PvP01_00_86.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=6456 | SO=contig
+28858681 6456 1
+0 Transfer.PvP01_00_87.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=6021 | SO=contig
+28865137 6021 1
+0 Transfer.PvP01_00_88.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=5910 | SO=contig
+28871158 5910 2
+0 Transfer.PvP01_00_89.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=5840 | SO=contig
+28877068 5840 2
+0 Transfer.PvP01_00_9.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=132466 | SO=contig
+28882908 132466 6
+0 Transfer.PvP01_00_90.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=5572 | SO=contig
+29015374 5572 2
+0 Transfer.PvP01_00_92.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=5003 | SO=contig
+29020946 5003 2
+0 Transfer.PvP01_00_93.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=4744 | SO=contig
+29025949 4744 1
+0 Transfer.PvP01_00_94.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=4551 | SO=contig
+29030693 4551 1
+0 Transfer.PvP01_00_95.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=4453 | SO=contig
+29035244 4453 1
+0 Transfer.PvP01_00_96.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=4365 | SO=contig
+29039697 4365 1
+0 Transfer.PvP01_00_98.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=4312 | SO=contig
+29044062 4312 1
+0 Transfer.PvP01_00_99.final | organism=Plasmodium_vivax_P01 | version=2018-02-28 | length=4222 | SO=contig
+29048374 4222 1

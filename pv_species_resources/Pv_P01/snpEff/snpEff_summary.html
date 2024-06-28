@@ -1,0 +1,627 @@
+
+<!--==========================================================================
+	FTL macros 
+	========================================================================== -->
+
+
+<!--==========================================================================
+	CSS styles 
+	========================================================================== -->
+
+
+<style type="text/css">
+
+body {
+	background-color: #dddddd;
+}
+
+/* Table styles. */
+
+table {
+  border-color: #000;
+  border-spacing: 0px;
+  border-style: solid;
+  border-width: 1px;
+  cell-spacing: 0px;
+}
+
+.noBorder {
+  border-width: 0px;
+}
+
+td, th {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  padding: 2px 0.5em;
+  white-space: nowrap;
+}
+
+td.numeric {
+  text-align: right;
+}
+
+th {
+  background-color: #c0c0c0;
+}
+
+th.mainHeader {
+  background-color: #808080;
+  color: #ffffff;
+  text-align: left;
+}
+
+th a {
+  color: #000080;
+  text-decoration: none;
+}
+
+th a:visited {
+  color: #000080;
+}
+
+th a:active, th a:hover {
+  color: #800000;
+  text-decoration: underline;
+}
+
+.toc {
+	border: 1px solid #aaa;
+	background-color: #eeeeee;
+	padding: 5px;
+	font-size: 95%;
+}
+
+.note {
+	border: 1px solid #aaa;
+	background-color: #eeeeee;
+	padding: 5px;
+	font-size: 90%;
+	text-align: left;
+}
+
+.main {
+	margin-top: 15px;
+	width: 1000px;
+	text-align: left;
+	background: #ffffff;
+	border: 3px solid #777777;
+}
+
+.histo {
+	table-layout:fixed;
+	width:100%;
+	border:1px solid #aaa;
+	word-wrap:break-word;
+}
+
+</style>
+
+
+<!--==========================================================================
+	Index
+	========================================================================== -->
+
+<center>
+<div class="main">
+
+<center> <h3> SnpEff: Variant analysis </h3> </center>
+
+<div style="margin-left: .5em">
+<table class="toc"><tr><td>
+	<center><b>Contents</b></center>
+	<a href="#summary">Summary</a><br>
+	<a href="#changeRateChr"> Variant rate by chromosome</a><br>
+	<a href="#changesByType">Variants by type</a><br>
+	<a href="#effectsImpact"> Number of variants by impact </a><br>
+	<a href="#effectsImpact"> Number of variants by functional class </a><br>
+	<a href="#effects"> Number of variants by effect </a><br>
+	<a href="#quality">Quality histogram</a><br>
+	<a href="#indels">InDel length histogram</a><br>
+	<a href="#baseChages">Base variant table</a><br>
+	<a href="#tstv">Transition vs transversions (ts/tv)</a><br>
+	<a href="#alleleFreq"> Allele frequency </a><br>
+	<a href="#alleleCount"> Allele Count </a><br>
+	<a href="#codonChanges"> Codon change table </a><br>
+	<a href="#aaChanges"> Amino acid change table </a><br>
+	<a href="#chrChanges"> Chromosome variants plots </a><br>
+	<a href="snpEff_genes.txt"> Details by gene </a><br>
+</tr></td></table>
+</div>
+
+
+<!--==========================================================================
+	Summary table 
+	========================================================================== -->
+
+<hr>
+<a name="summary">
+<center>
+<b>Summary</b><p>
+
+<table border=0>
+	<tr bgcolor=ffffff> 
+		<td valign=top> <b> Genome </b> </td>
+		<td> Plasmodium_falciparum </td>
+	</tr>
+	<tr bgcolor=dddddd> 
+		<td valign=top> <b> Date </b> </td>
+		<td> 2019-03-29 21:10 </td>
+	</tr>
+	<tr bgcolor=ffffff> 
+		<td valign=top> <b> SnpEff version </b> </td>
+		<td> <pre>SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani</pre> </td>
+	</tr>
+	<tr bgcolor=dddddd> 
+		<td valign=top> <b> Command line arguments </b> </td>
+		<td> <pre>SnpEff  Plasmodium_falciparum /tmp/chrM_0.vcf 
+</pre> </td>
+	</tr>
+	<tr bgcolor=ffffff> 
+		<td valign=top> <b> Warnings </b> </td>
+		 
+		<td bgcolor="#ffffff"> 0 </td>
+	</tr>	
+	<tr bgcolor=dddddd> 
+		<td valign=top> <b> Errors </b> </td>
+		   
+		<td bgcolor="#ff0000"> 62 </td>
+	</tr>	
+	<tr bgcolor=ffffff>
+		<td valign=top> <b> Number of lines (input file) </b> </td>
+		<td> 50 </td>
+	</tr>
+	<tr bgcolor=dddddd>
+		<td valign=top> <b> Number of variants (before filter) </b> </td>
+		<td> 62 </td>
+	</tr>
+	<tr bgcolor=ffffff>
+		<td valign=top> <b> Number of not variants <br>(i.e. reference equals alternative) </b> </td>
+		<td> 0 </td>
+	</tr>
+	<tr bgcolor=dddddd>
+		<td valign=top> <b> Number of variants processed <br> (i.e. after filter and non-variants) </b> </td>
+		<td> 62 </td>
+	</tr>
+	<tr bgcolor=ffffff>
+		<td valign=top> <b> Number of known variants <br>(i.e. non-empty ID) </b> </td>
+		<td> 
+		0
+		( 0% ) 
+		</td>
+	</tr>
+	<tr bgcolor=ffffff>
+		<td valign=top> <b> Number of multi-allelic VCF entries <br>(i.e. more than two alleles) </b> </td>
+		<td> 
+		12
+		</td>
+	</tr>
+	<tr bgcolor=dddddd>
+		<td valign=top> <b> Number of effects </b> </td>
+		<td> 62 </td>
+	</tr>
+	<tr bgcolor=ffffff>
+		<td valign=top> <b> Genome total length </b> </td>
+		<td> 23,292,538 </td>
+	</tr>
+	<tr bgcolor=dddddd>
+		<td valign=top> <b> Genome effective length </b> </td>
+		<td> 1 </td>
+	</tr>
+	<tr bgcolor=ffffff>
+		<td valign=top> <b> Variant rate </b> </td>
+		<td> 1 variant every 0 bases </td>
+	</tr>
+</table>
+<p>
+</center>
+
+<!--==========================================================================
+	Variant rate by chromosome
+	========================================================================== -->
+
+<hr> 
+<a name="changeRateChr"> 
+
+<center>
+<b> Variants rate details </b><p>
+
+<table border=1>
+	<tr><th> Chromosome </th><th> Length </th><th> Variants </th><th> Variants rate </th></tr> 
+		<tr>
+			<td> M </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+	<tr>
+		<th> Total </th>
+		<th class="numeric"> 1 </th>
+		<th class="numeric"> 62 </th>
+		<th class="numeric"> 0 </th>
+	</tr> 
+</table> 
+</center>
+
+<!--==========================================================================
+	Variants by type
+	========================================================================== -->
+
+<hr> 
+<a name="changesByType"> 
+<center>
+<b> Number variants by type</b><p>
+
+<table border=1>
+	<thead>
+		<tr>
+			<th> <b> Type   </b> </th>
+			<th> <b> Total  </b> </th>
+		</tr>
+	</thead>
+    <tbody>
+	    <tr>
+	    	<td> <b> SNP </b> </td>
+	    	<td class="numeric" bgcolor="#ff0000"> 53 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> MNP </b> </td>
+	    	<td class="numeric" bgcolor="#00ff00"> 9 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> INS </b> </td>
+	    	<td class="numeric" bgcolor="ffffff"> 0 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> DEL </b> </td>
+	    	<td class="numeric" bgcolor="ffffff"> 0 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> MIXED </b> </td>
+	    	<td class="numeric" bgcolor="ffffff"> 0 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> INV </b> </td>
+	    	<td class="numeric" bgcolor="ffffff"> 0 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> DUP </b> </td>
+	    	<td class="numeric" bgcolor="ffffff"> 0 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> BND </b> </td>
+	    	<td class="numeric" bgcolor="ffffff"> 0 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> INTERVAL </b> </td>
+	    	<td class="numeric" bgcolor="ffffff"> 0 </td>
+	    </tr>
+    </tbody>
+    <tfoot>
+	    <tr>
+	    	<th><b>Total </b> </th>
+	    	<th class="numeric"> 62 </th>
+	    </tr>
+    </tfoot>
+</table>
+</center>
+
+<!--==========================================================================
+	Effects by impact
+	========================================================================== -->
+
+<hr> 
+<a name="effectsImpact"> 
+<center>
+<b> Number of effects by impact </b> <p> 
+
+<table border=0>
+	<thead>
+		<tr> 
+			<th><b> Type (alphabetical order)  </b></th>
+			<th> &nbsp; </th>
+			<th> Count </th>
+			<th> Percent </th>
+		</tr>
+	</thead>
+</table><br>
+<p>
+</center>
+
+<!--==========================================================================
+	Effects by functional class
+	========================================================================== -->
+
+<hr> 
+<a name="effectsFuncClass"> 
+<center>
+<b> Number of effects by functional class </b> <p> 
+
+<table border=0>
+	<thead>
+		<tr> 
+			<th><b> Type (alphabetical order)  </b></th>
+			<th> &nbsp; </th>
+			<th> Count </th>
+			<th> Percent </th>
+		</tr>
+	</thead>
+</table><br>
+<p>
+
+Missense / Silent ratio: 0
+
+</center>
+
+<!--==========================================================================
+	Effects stats
+	========================================================================== -->
+
+<hr> 
+<a name="effects"> 
+<center>
+<b> Number of effects by type and region </b> <p> 
+
+<table border=0>
+	<tr>
+		<th> Type </th>
+		<th> Region </th>
+	</tr>
+	<tr>
+		<td> <table border=0>
+	<thead>
+		<tr> 
+			<th><b> Type (alphabetical order)  </b></th>
+			<th> &nbsp; </th>
+			<th> Count </th>
+			<th> Percent </th>
+		</tr>
+	</thead>
+</table><br>
+ </td>
+		<td> <table border=0>
+	<thead>
+		<tr> 
+			<th><b> Type (alphabetical order)  </b></th>
+			<th> &nbsp; </th>
+			<th> Count </th>
+			<th> Percent </th>
+		</tr>
+	</thead>
+</table><br>
+ </td>
+	</tr>
+</table>
+<p>
+
+<img src="http://chart.apis.google.com/chart?cht=bvs&chs=800x300&chbh=50,4,8&chxt=y,y,x,x&chtt=Variations&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chco=00FFFF,FA8072,FF0000,A52A2A,FFA500,DEB887,E9967A,7FFFD4,808080&chdl=Upstream|5%27UTR|Exon|Splice+Donor|Intron|Splice+Acceptor|3%27UTR|Downstream|Intergenic&chxl=1:|%25|2:|Intergenic|Up|5%27UTR|Exon|Donor|Intron|Acceptor|Exon|3%27UTR|Down|Intergenic|3:|&chd=e:AA__AAAAAAAAAAAAAAAAAA,AAAA__AAAAAAAAAAAAAAAA,AAAAAA__AAAAAA__AAAAAA,AAAAAAAA__AAAAAAAAAAAA,AAAAAAAAAA__AAAAAAAAAA,AAAAAAAAAAAA__AAAAAAAA,AAAAAAAAAAAAAAAA__AAAA,AAAAAAAAAAAAAAAAAA__AA,__AAAAAAAAAAAAAAAAAA__" border=1><p>
+
+</center>
+
+<!--==========================================================================
+	Quality
+	========================================================================== -->
+
+<hr> 
+<a name="quality"> 
+<b> Quality:</b> 
+<p>
+<pre>
+	<img src="http://chart.apis.google.com/chart?chd=e:&cht=bvg&chbh=8,4,2&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chtt=Quality+histogram&chxl=1:|Count|3:|Quality&chxr=0,2.147483647E9,-2.147483648E9|1,0.0,100.0|3,0.0,100.0"><br>
+</pre>
+
+<!--==========================================================================
+	InDels
+	========================================================================== -->
+
+<hr> 
+<a name="indels"> 
+<b> Insertions and deletions length:</b> 
+<p>
+<pre>
+	<img src="http://chart.apis.google.com/chart?chd=e:&cht=bvg&chbh=8,4,2&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxl=1:|Count|3:|Length&chtt=Insertion+deletion+length+histogram&chxr=0,2.147483647E9,-2.147483648E9|1,0.0,100.0|3,0.0,100.0"><br>
+</pre>
+
+<!--==========================================================================
+	Base changes
+	========================================================================== -->
+
+<hr> 
+<a name="baseChages"> 
+<center>
+<b> Base changes (SNPs) </b> <p>
+
+<table border=1>
+    <tr>
+    	<td> &nbsp; </td>  <th> <b> A </b> </th> <th> <b> C </b> </th> <th> <b> G </b> </th> <th> <b> T </b> </th>
+    </tr>
+	    <tr> <th> <b> A </b> </th><td class="numeric" bgcolor="ffffff"> 0 </td><td class="numeric" bgcolor="#38c600"> 5 </td><td class="numeric" bgcolor="#2ad400"> 4 </td><td class="numeric" bgcolor="#aa5500"> 13 </td> </tr>
+	    <tr> <th> <b> C </b> </th><td class="numeric" bgcolor="#00ff00"> 1 </td><td class="numeric" bgcolor="ffffff"> 0 </td><td class="numeric" bgcolor="ffffff"> 0 </td><td class="numeric" bgcolor="#2ad400"> 4 </td> </tr>
+	    <tr> <th> <b> G </b> </th><td class="numeric" bgcolor="#0ef000"> 2 </td><td class="numeric" bgcolor="ffffff"> 0 </td><td class="numeric" bgcolor="ffffff"> 0 </td><td class="numeric" bgcolor="#0ef000"> 2 </td> </tr>
+	    <tr> <th> <b> T </b> </th><td class="numeric" bgcolor="#ff0000"> 19 </td><td class="numeric" bgcolor="#1ce200"> 3 </td><td class="numeric" bgcolor="ffffff"> 0 </td><td class="numeric" bgcolor="ffffff"> 0 </td> </tr>
+</table>
+</center>
+
+<p>
+
+<!--==========================================================================
+	Ts/Tv
+	========================================================================== -->
+
+<hr> 
+<a name="tstv">
+<center> <b> Ts/Tv (transitions / transversions) </b> <p> </center>
+
+<small>
+<b>Note:</b> Only SNPs are used for this statistic.<br>
+<b>Note:</b> This Ts/Tv ratio is a 'raw' ratio (ratio of observed events).
+</small>
+<p>
+
+<center>
+<table border=1>
+	<tr> <th> Transitions </th><td class="numeric"> 269 </td> </tr>
+	<tr> <th> Transversions </th><td class="numeric"> 822 </td> </tr>
+	<tr> <th> Ts/Tv ratio </th><td class="numeric"> 0.3273 </td> </tr>
+</table>
+</center>
+<p>
+
+	<b>All variants:</b>
+	<pre>Sample ,A0E7L-SM-1,A1C8L-SM-1,A1F9P-SM-1,A4G1L-SM-1,A4T1Y-SM-1,A4V0Z-SM-1,A5Y0E-SM-1,A6L0R-SM-1,A6W6J-SM-1,A8Q1Z-SM-1,A8X2I-SM-1,A9B8S-SM-1,A9F3R-SM-1,A9P1Z-SM-1,A9W7N-SM-1,B1L3Q-SM-1,B1P0R-SM-1,B1Z0C-SM-1,B3A9N-SM-1,B3T8G-SM-1,B3X3F-SM-1,B4I4R-SM-1,B4M1S-SM-1,B5O9E-SM-1,B8Z5O-SM-1,B9O5E-SM-1,BLANK-SM-1,C4N3W-SM-1,C4Y8N-SM-1,C5E3O-SM-1,C6G6U-SM-1,C6X4K-SM-1,C7C1M-SM-1,C7W0G-SM-1,C8R8K-SM-1,C9F9Z-SM-1,D0Z1E-SM-1,D10-SM-1,D10-SM-10,D10-SM-11,D10-SM-13,D10-SM-14,D10-SM-3,D10-SM-7,D10-SM-8,D10-SM-9,D1M9Z-SM-1,D1Z5J-SM-1,D2C3K-SM-1,D3G0M-SM-1,D3G3P-SM-1,D3J5U-SM-1,D4A3K-SM-1,D5F3Q-SM-1,D5W0F-SM-1,D6O7F-SM-1,D9C8W-SM-1,E0B1G-SM-1,E1M1S-SM-1,E3F3P-SM-1,E4J3U-SM-1,E4O5C-SM-1,E4P5D-SM-1,E4P63-SM-1,E4T0C-SM-1,E5K0T-SM-1,E5N8F-SM-1,E5P4D-SM-1,E5W0G-SM-1,E7A6R-SM-1,E8G1T-SM-1,E8T7N-SM-1,E8X2M-SM-1,E9A4R-SM-1,E9Q1F-SM-1,F1S7G-SM-1,F2H4S-SM-1,F2L0S-SM-1,F2M1U-SM-1,F2M6Z-SM-1,F3O4B-SM-1,F6P8J-SM-1,F7B7U-SM-1,F8H8D-SM-1,F9X8U-SM-1,G0C0I-SM-1,G0J4T-SM-1,G2E7T-SM-1,G2Q8H-SM-1,G3Y8Q-SM-1,G5A4P-SM-1,G5M9H-SM-1,G7Q4I-SM-1,G7T0H-SM-1,G9D7Z-SM-1,G9J5E-SM-1,H0L3V-SM-1,H1A9R-SM-1,H1J9B-SM-1,H1L4X-SM-1,H1Q0Y-SM-1,H2C4P-SM-1,H2W7N-SM-1,H3I6Y-SM-1,H4I5Y-SM-1,H5T2I-SM-1,H6K2Z-SM-1,H9B0R-SM-1,I0N1W-SM-1,I0Y9Q-SM-1,I1B5P-SM-1,I1K7B-SM-1,I1X1I-SM-1,I2C9V-SM-1,I2F4T-SM-1,I3M6E-SM-1,I7C5W-SM-1,I7G1W-SM-1,I8J8I-SM-1,I9B3V-SM-1,I9S3N-SM-1,I9X9Y-SM-1,J0F6U-SM-1,J0K4X-SM-1,J0M1W-SM-1,J1L8E-SM-1,J1O6F-SM-1,J1R4G-SM-1,J2Q9L-SM-1,J2R8L-SM-1,J5D4V-SM-1,J5V7R-SM-1,J6L3E-SM-1,J7H3B-SM-1,J8B3V-SM-1,J8G5D-SM-1,J8L2F-SM-1,J8R3M-SM-1,J8S9T-SM-1,J9H2C-SM-1,J9K2F-SM-1,J9Z9C-SM-1,K0D4R-SM-1,K1K8E-SM-1,K1L2Y-SM-1,K2B6T-SM-1,K3P8L-SM-1,K5D1T-SM-1,K5V1M-SM-1,K7B9C-SM-1,K7W4S-SM-1,K8K2F-SM-1,K9H1C-SM-1,L0B4Q-SM-1,L0D5T-SM-1,L0M5D-SM-1,L0N4D-SM-1,L1I9E-SM-1,L1N2C-SM-1,L1Q4H-SM-1,L2D1R-SM-1,L3D5W-SM-1,L3K0Y-SM-1,L3V4O-SM-1,L4M6I-SM-1,L5J5F-SM-1,L5W5S-SM-1,L6L6J-SM-1,L8Q2M-SM-1,L8V1Q-SM-1,L9R8U-SM-1,L9S2P-SM-1,M2G1V-SM-1,M4P7N-SM-1,M6Z0S-SM-1,N0Z1O-SM-1,N1G1V-SM-1,N1U0J-SM-1,N6E6E-SM-1,N9O1M-SM-1,O1A6V-SM-1,O1T6P-SM-1,O4M4J-SM-1,O5D7E-SM-1,O6W4V-SM-1,O6X1T-SM-1,O8O2N-SM-1,O8Q7U-SM-1,O9J8P-SM-1,P1P2I-SM-1,P1R01-SM-1,P2R4N-SM-1,P3C9E-SM-1,P3D3Y-SM-1,P3M3I-SM-1,P3O7O-SM-1,P4S4Q-SM-1,P5W0R-SM-1,P6F9K-SM-1,P6K0G-SM-1,P9D7J-SM-1,Q0M5I-SM-1,Q0T9T-SM-1,Q1N7M-SM-1,Q2T2O-SM-1,Q2Y6X-SM-1,Q4J9N-SM-1,Q4N1J-SM-1,Q5G9L-SM-1,Q5Q4Q-SM-1,Q7N2N-SM-1,Q8C4F-SM-1,Q8M0L-SM-1,Q8Q5U-SM-1,R0U7T-SM-1,R2N5M-SM-1,R5G9M-SM-1,R5O7S-SM-1,R6U6Y-SM-1,R7A0Y-SM-1,R7A6F-SM-1,R8U2W-SM-1,S0N6M-SM-1,S0ZYZ-SM-1,S1W5V-SM-1,S2S2P-SM-1,S3U9Z-SM-1,S4I5K-SM-1,S4K1I-SM-1,S4S6V-SM-1,S6H8O-SM-1,S6J2K-SM-1,S6K6P-SM-1,S6O6T-SM-1,S6V3X-SM-1,S7O4S-SM-1,S8J6Q-SM-1,S8W1Y-SM-1,T0D2Y-SM-1,T2I1F-SM-1,T2L2J-SM-1,T3O9U-SM-1,T3X6B-SM-1,T4V1U-SM-1,T7K9U-SM-1,T8E2I-SM-1,T8N3S-SM-1,T9W3D-SM-1,T9X8J-SM-1,U0D6E-SM-1,U0Z6B-SM-1,U1P9U-SM-1,U1R5S-SM-1,U1R6T-SM-1,U2H6K-SM-1,U3B1Z-SM-1,U3Y9G-SM-1,U4L7R-SM-1,U4W8E-SM-1,U6A4F-SM-1,U6A8J-SM-1,U6D7L-SM-1,U6L2O-SM-1,U8F0I-SM-1,U9K8W-SM-1,U9Z8M-SM-1,V2A2Z-SM-1,V2N2N-SM-1,V2O8U-SM-1,V3N8U-SM-1,V4H8P-SM-1,V5E2H-SM-1,V5N7V-SM-1,V7C5K-SM-1,V7U5D-SM-1,V8B7M-SM-1,V9L4U-SM-1,V9N7Z-SM-1,W1J7O-SM-1,W2Q1Q-SM-1,W2V8D-SM-1,W4D7L-SM-1,W5J0L-SM-1,W6R4Y-SM-1,W6V1Z-SM-1,W7Q4Y-SM-1,X0E4G-SM-1,X0Q3R-SM-1,X1M1M-SM-1,X3Y6G-SM-1,X4O6W-SM-1,X5R6B-SM-1,X6X7J-SM-1,X7F5P-SM-1,X7P4Y-SM-1,X7R4B-SM-1,X7V8J-SM-1,X9J6W-SM-1,X9K6X-SM-1,X9M2V-SM-1,X9M8C-SM-1,Y1X3B-SM-1,Y1Y5E-SM-1,Y3Y3E-SM-1,Y4G3M-SM-1,Y5P0T-SM-1,Y6F4O-SM-1,Y6X7K-SM-1,Y7X8M-SM-1,Y8Z1I-SM-1,Y9P3B-SM-1,Y9Y7O-SM-1,Z0B8J-SM-1,Z1K9U-SM-1,Z1Q9B-SM-1,Z1X1Z-SM-1,Z2H3M-SM-1,Z2I9T-SM-1,Z2Q6Y-SM-1,Z4G3N-SM-1,Z4W7I-SM-1,Z5D8Q-SM-1,Z5J9X-SM-1,Z5S5D-SM-1,Z6G4Q-SM-1,Z6W9M-SM-1,Z7B6O-SM-1,Z7D6Q-SM-1,Z7F7T-SM-1,Z7H5T-SM-1,Z7O7D-SM-1,Total
+Transitions ,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,1,1,1,0,1,0,1,1,1,7,0,0,0,7,7,1,0,0,0,0,0,7,0,7,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,7,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,7,7,0,0,0,0,0,0,0,0,7,0,8,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,6,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,7,0,0,0,0,0,0,5,1,0,0,0,0,0,0,0,1,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,7,0,0,7,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,7,7,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,269
+Transversions ,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,22,25,0,0,0,0,0,0,22,0,22,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,22,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,22,22,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,22,22,0,0,0,0,0,0,0,0,22,0,23,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,20,0,0,22,22,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,22,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0,0,0,22,0,0,22,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,22,22,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,822
+Ts/Tv ,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,NaN,NaN,NaN,Infinity,Infinity,Infinity,NaN,Infinity,NaN,Infinity,Infinity,Infinity,0.318,NaN,NaN,NaN,0.318,0.280,Infinity,NaN,NaN,NaN,NaN,NaN,0.318,NaN,0.318,NaN,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Infinity,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,NaN,NaN,NaN,NaN,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,0.318,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,NaN,NaN,NaN,0.318,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,NaN,0.348,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.286,NaN,NaN,NaN,0.300,NaN,NaN,0.318,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.300,NaN,NaN,NaN,NaN,0.318,NaN,NaN,NaN,NaN,NaN,NaN,0.227,Infinity,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Infinity,NaN,NaN,NaN,NaN,0.318,NaN,NaN,0.000,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,NaN,NaN,0.318,NaN,NaN,NaN,NaN,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.318,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.327
+</pre>
+	<p>
+	<b>Only known variants</b> (i.e. the ones having a non-empty ID field):
+	<pre>No results available (empty input?)</pre>
+<p>
+
+<!--==========================================================================
+	Allele frequency
+	========================================================================== -->
+
+<hr> 
+<a name="alleleFreq">
+<center> <b> Allele frequency </b> <p> </center>
+
+	<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chs=800x300&chxt=y,y,x,x&chg=1.0,2.0,3,2&chd=e:LhEfLh..LhAA&chxp=1,50.0|3,50.0&chtt=Allele+Frequency+%25&chxr=0,1.0,28.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Count|2:|0|||||12|3:|Alleles+frequency"><br>
+	<table class="histo">
+		<tr> <th width=15%>Min</th><td>0</td> </tr>
+		<tr> <th>Max</th><td>12</td> </tr>
+		<tr> <th>Mean</th><td>8.3</td> </tr>
+		<tr> <th>Median</th><td>10</td> </tr>
+		<tr> <th>Standard deviation</th><td>3.819</td> </tr>
+		<tr> <th>Values</th><td>0,1,9,10,11,12</td> </tr>
+		<tr> <th>Count</th><td>6,3,6,28,6,1</td> </tr>
+		</tr>
+	</table>
+<p>
+	
+<!--==========================================================================
+	Allele Count
+	========================================================================== -->
+
+<hr> 
+<a name="alleleCount">
+<center> <b> Allele Count </b> <p> </center>
+	<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chs=800x300&chxt=y,y,x,x&chg=4.0,1.0,3,2&chtt=Allele+Count&chxp=1,50.0|3,50.0&chd=e:HrD2AAAAD2LhAAAA..j1QAD2AA&chxr=0,1.0,17.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Count|2:|1||||||||||39||46|3:|Allele+Count"><br>
+	<table class="histo">
+		<tr> <th width=15%>Min</th><td>1</td> </tr>
+		<tr> <th>Max</th><td>46</td> </tr>
+		<tr> <th>Mean</th><td>31.28</td> </tr>
+		<tr> <th>Median</th><td>37</td> </tr>
+		<tr> <th>Standard deviation</th><td>13.533</td> </tr>
+		<tr> <th>Values</th><td>1,2,3,5,6,34,35,36,37,38,39,40,46</td> </tr>
+		<tr> <th>Count</th><td>3,2,1,1,2,4,1,1,17,10,5,2,1</td> </tr>
+		</tr>
+	</table>
+<p>
+
+
+<!--==========================================================================
+	Hom/Het table
+	========================================================================== -->
+
+<hr> 
+<a name="homHet">
+<center> <b> Hom/Het per sample </b> <p> </center>
+	<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chs=800x300&chxt=y,y,x,x&chg=33.0,8.0,3,2&chxp=1,50.0|3,50.0&chtt=Heterozygous+genotypes&chxr=0,0.0,83.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Heterozygous+count|2:|0||||||||||||||||||||||||||||||34||||||||||||||||||||||||||||||67||||||||||||||||||||||||||||||100||||||||||||||||||||||||||||||133||||||||||||||||||||||||||||||166||||||||||||||||||||||||||||||199||||||||||||||||||||||||||||||232||||||||||||||||||||||||||||||265||||||||||||||||||||||||||||||298|||||||||||||||||||||||||||||330|3:|Sample+number&chd=e:ApAAAAAAAAAAAAAAAAAAAAfXApAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfXAAAAAAApApApAAApApApApfXAAAAAAfXfXApAAAAAAAAfXAAfXAAfXAAAAAAAAAAAAAAAAApAAAAAAAAAAAAfXAAAAAAAAAAAAfXAAAAAAAAfXAAAAAAAAAAAAAAAAAAAAAAfXAAAAAAAAAAAAAAfXAAAAAAAAAAAAAAAAAAAAAAfXAAAAAAAAAAAAAAfX..AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfXAAAAfXfXAAAAAAAAAAAAAAfXAAcKAAAAAAAAAAAAAAAAAAAAKPAAAAAAdcAAfXfXAAAAAAAAAAAAAAAAAAAAAAAAdcAAAAAAAAfXAAAAAAAAAAeuApAAAAAAAAAAAAApAAAAAAAAfXAAApAAAAAAAAAAAAAAfXAAfXAAAAAAAAfXAAAAAAAAAAAAAAAAAAAAAAfXAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAfXfXAAAAAAAAAAAAAAfXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"><br>
+	<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chtt=Homozygous+%28ALT%29+genotypes&chxr=0,0.0,8.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Homozygous+count|2:|0||||||||||||||||||||||||||||||34||||||||||||||||||||||||||||||67||||||||||||||||||||||||||||||100||||||||||||||||||||||||||||||133||||||||||||||||||||||||||||||166||||||||||||||||||||||||||||||199||||||||||||||||||||||||||||||232||||||||||||||||||||||||||||||265||||||||||||||||||||||||||||||298|||||||||||||||||||||||||||||330|3:|Sample+number&chd=e:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA..AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"><br>
+	<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chs=800x300&chxt=y,y,x,x&chg=33.0,10.0,3,2&chxp=1,50.0|3,50.0&chtt=Missing+genotypes&chxr=0,0.0,100.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Missing+count|2:|0||||||||||||||||||||||||||||||34||||||||||||||||||||||||||||||67||||||||||||||||||||||||||||||100||||||||||||||||||||||||||||||133||||||||||||||||||||||||||||||166||||||||||||||||||||||||||||||199||||||||||||||||||||||||||||||232||||||||||||||||||||||||||||||265||||||||||||||||||||||||||||||298|||||||||||||||||||||||||||||330|3:|Sample+number&chd=e:gAgAgAgAApgAApAAApVHgAApAAApgAgAgAgAApApgAAAgAgAAAUegAgAgAgogAgAgAApApApApApBSApApApgAgAAAApApAAApgAAAgAApApApAAApApgoAAgAT1ApApgAApAp..gAApgAApApApgAgAgAgoApApApAAgAApApgAApgAAAApApApAAAAgAgAApgAgAApUegAgAgAApApgAAAApgAAAApAAgAApgAgogAAAUegAApgAUeApBSUegAApgAApgAApgAUegogAApAAApgAAAAAgAgAgAAAApgAgAgAgAApgA..ApAAgAgAAAApApgAgAApgAApgAAAgAgAApgAgAgogAUeUegAgAApApApApApgAUeApAAgAApgAgA0egAgAgAApgAgAAAgAAp0egAgAgAgAAAAAApgAApgAgAgAAAAAgAApApApApAAApgAApgAAAApgAApgAApgAgAgAAAApApgAgAgAgAApApgAgAApgAApBSApApUeApAAApgAAAApBSgAgAApAAgAApgAgAgogAUeApAAgAAAgAgAgAgAgAApUeApgAgAUegAgAUegAgAApAAgAAAgAAAgA"><br>
+	
+	<pre>Sample_names , A0E7L-SM-1, A1C8L-SM-1, A1F9P-SM-1, A4G1L-SM-1, A4T1Y-SM-1, A4V0Z-SM-1, A5Y0E-SM-1, A6L0R-SM-1, A6W6J-SM-1, A8Q1Z-SM-1, A8X2I-SM-1, A9B8S-SM-1, A9F3R-SM-1, A9P1Z-SM-1, A9W7N-SM-1, B1L3Q-SM-1, B1P0R-SM-1, B1Z0C-SM-1, B3A9N-SM-1, B3T8G-SM-1, B3X3F-SM-1, B4I4R-SM-1, B4M1S-SM-1, B5O9E-SM-1, B8Z5O-SM-1, B9O5E-SM-1, BLANK-SM-1, C4N3W-SM-1, C4Y8N-SM-1, C5E3O-SM-1, C6G6U-SM-1, C6X4K-SM-1, C7C1M-SM-1, C7W0G-SM-1, C8R8K-SM-1, C9F9Z-SM-1, D0Z1E-SM-1, D10-SM-1, D10-SM-10, D10-SM-11, D10-SM-13, D10-SM-14, D10-SM-3, D10-SM-7, D10-SM-8, D10-SM-9, D1M9Z-SM-1, D1Z5J-SM-1, D2C3K-SM-1, D3G0M-SM-1, D3G3P-SM-1, D3J5U-SM-1, D4A3K-SM-1, D5F3Q-SM-1, D5W0F-SM-1, D6O7F-SM-1, D9C8W-SM-1, E0B1G-SM-1, E1M1S-SM-1, E3F3P-SM-1, E4J3U-SM-1, E4O5C-SM-1, E4P5D-SM-1, E4P63-SM-1, E4T0C-SM-1, E5K0T-SM-1, E5N8F-SM-1, E5P4D-SM-1, E5W0G-SM-1, E7A6R-SM-1, E8G1T-SM-1, E8T7N-SM-1, E8X2M-SM-1, E9A4R-SM-1, E9Q1F-SM-1, F1S7G-SM-1, F2H4S-SM-1, F2L0S-SM-1, F2M1U-SM-1, F2M6Z-SM-1, F3O4B-SM-1, F6P8J-SM-1, F7B7U-SM-1, F8H8D-SM-1, F9X8U-SM-1, G0C0I-SM-1, G0J4T-SM-1, G2E7T-SM-1, G2Q8H-SM-1, G3Y8Q-SM-1, G5A4P-SM-1, G5M9H-SM-1, G7Q4I-SM-1, G7T0H-SM-1, G9D7Z-SM-1, G9J5E-SM-1, H0L3V-SM-1, H1A9R-SM-1, H1J9B-SM-1, H1L4X-SM-1, H1Q0Y-SM-1, H2C4P-SM-1, H2W7N-SM-1, H3I6Y-SM-1, H4I5Y-SM-1, H5T2I-SM-1, H6K2Z-SM-1, H9B0R-SM-1, I0N1W-SM-1, I0Y9Q-SM-1, I1B5P-SM-1, I1K7B-SM-1, I1X1I-SM-1, I2C9V-SM-1, I2F4T-SM-1, I3M6E-SM-1, I7C5W-SM-1, I7G1W-SM-1, I8J8I-SM-1, I9B3V-SM-1, I9S3N-SM-1, I9X9Y-SM-1, J0F6U-SM-1, J0K4X-SM-1, J0M1W-SM-1, J1L8E-SM-1, J1O6F-SM-1, J1R4G-SM-1, J2Q9L-SM-1, J2R8L-SM-1, J5D4V-SM-1, J5V7R-SM-1, J6L3E-SM-1, J7H3B-SM-1, J8B3V-SM-1, J8G5D-SM-1, J8L2F-SM-1, J8R3M-SM-1, J8S9T-SM-1, J9H2C-SM-1, J9K2F-SM-1, J9Z9C-SM-1, K0D4R-SM-1, K1K8E-SM-1, K1L2Y-SM-1, K2B6T-SM-1, K3P8L-SM-1, K5D1T-SM-1, K5V1M-SM-1, K7B9C-SM-1, K7W4S-SM-1, K8K2F-SM-1, K9H1C-SM-1, L0B4Q-SM-1, L0D5T-SM-1, L0M5D-SM-1, L0N4D-SM-1, L1I9E-SM-1, L1N2C-SM-1, L1Q4H-SM-1, L2D1R-SM-1, L3D5W-SM-1, L3K0Y-SM-1, L3V4O-SM-1, L4M6I-SM-1, L5J5F-SM-1, L5W5S-SM-1, L6L6J-SM-1, L8Q2M-SM-1, L8V1Q-SM-1, L9R8U-SM-1, L9S2P-SM-1, M2G1V-SM-1, M4P7N-SM-1, M6Z0S-SM-1, N0Z1O-SM-1, N1G1V-SM-1, N1U0J-SM-1, N6E6E-SM-1, N9O1M-SM-1, O1A6V-SM-1, O1T6P-SM-1, O4M4J-SM-1, O5D7E-SM-1, O6W4V-SM-1, O6X1T-SM-1, O8O2N-SM-1, O8Q7U-SM-1, O9J8P-SM-1, P1P2I-SM-1, P1R01-SM-1, P2R4N-SM-1, P3C9E-SM-1, P3D3Y-SM-1, P3M3I-SM-1, P3O7O-SM-1, P4S4Q-SM-1, P5W0R-SM-1, P6F9K-SM-1, P6K0G-SM-1, P9D7J-SM-1, Q0M5I-SM-1, Q0T9T-SM-1, Q1N7M-SM-1, Q2T2O-SM-1, Q2Y6X-SM-1, Q4J9N-SM-1, Q4N1J-SM-1, Q5G9L-SM-1, Q5Q4Q-SM-1, Q7N2N-SM-1, Q8C4F-SM-1, Q8M0L-SM-1, Q8Q5U-SM-1, R0U7T-SM-1, R2N5M-SM-1, R5G9M-SM-1, R5O7S-SM-1, R6U6Y-SM-1, R7A0Y-SM-1, R7A6F-SM-1, R8U2W-SM-1, S0N6M-SM-1, S0ZYZ-SM-1, S1W5V-SM-1, S2S2P-SM-1, S3U9Z-SM-1, S4I5K-SM-1, S4K1I-SM-1, S4S6V-SM-1, S6H8O-SM-1, S6J2K-SM-1, S6K6P-SM-1, S6O6T-SM-1, S6V3X-SM-1, S7O4S-SM-1, S8J6Q-SM-1, S8W1Y-SM-1, T0D2Y-SM-1, T2I1F-SM-1, T2L2J-SM-1, T3O9U-SM-1, T3X6B-SM-1, T4V1U-SM-1, T7K9U-SM-1, T8E2I-SM-1, T8N3S-SM-1, T9W3D-SM-1, T9X8J-SM-1, U0D6E-SM-1, U0Z6B-SM-1, U1P9U-SM-1, U1R5S-SM-1, U1R6T-SM-1, U2H6K-SM-1, U3B1Z-SM-1, U3Y9G-SM-1, U4L7R-SM-1, U4W8E-SM-1, U6A4F-SM-1, U6A8J-SM-1, U6D7L-SM-1, U6L2O-SM-1, U8F0I-SM-1, U9K8W-SM-1, U9Z8M-SM-1, V2A2Z-SM-1, V2N2N-SM-1, V2O8U-SM-1, V3N8U-SM-1, V4H8P-SM-1, V5E2H-SM-1, V5N7V-SM-1, V7C5K-SM-1, V7U5D-SM-1, V8B7M-SM-1, V9L4U-SM-1, V9N7Z-SM-1, W1J7O-SM-1, W2Q1Q-SM-1, W2V8D-SM-1, W4D7L-SM-1, W5J0L-SM-1, W6R4Y-SM-1, W6V1Z-SM-1, W7Q4Y-SM-1, X0E4G-SM-1, X0Q3R-SM-1, X1M1M-SM-1, X3Y6G-SM-1, X4O6W-SM-1, X5R6B-SM-1, X6X7J-SM-1, X7F5P-SM-1, X7P4Y-SM-1, X7R4B-SM-1, X7V8J-SM-1, X9J6W-SM-1, X9K6X-SM-1, X9M2V-SM-1, X9M8C-SM-1, Y1X3B-SM-1, Y1Y5E-SM-1, Y3Y3E-SM-1, Y4G3M-SM-1, Y5P0T-SM-1, Y6F4O-SM-1, Y6X7K-SM-1, Y7X8M-SM-1, Y8Z1I-SM-1, Y9P3B-SM-1, Y9Y7O-SM-1, Z0B8J-SM-1, Z1K9U-SM-1, Z1Q9B-SM-1, Z1X1Z-SM-1, Z2H3M-SM-1, Z2I9T-SM-1, Z2Q6Y-SM-1, Z4G3N-SM-1, Z4W7I-SM-1, Z5D8Q-SM-1, Z5J9X-SM-1, Z5S5D-SM-1, Z6G4Q-SM-1, Z6W9M-SM-1, Z7B6O-SM-1, Z7D6Q-SM-1, Z7F7T-SM-1, Z7H5T-SM-1, Z7O7D-SM-1
+Reference , 0, 49, 0, 0, 0, 49, 0, 49, 50, 49, 49, 18, 0, 8, 49, 49, 0, 0, 0, 0, 49, 49, 50, 0, 50, 0, 0, 50, 18, 0, 0, 0, 0, 8, 0, 0, 0, 48, 48, 48, 49, 48, 49, 48, 48, 48, 8, 0, 0, 50, 8, 3, 49, 49, 50, 0, 50, 0, 8, 49, 8, 50, 8, 49, 49, 0, 50, 0, 19, 49, 49, 0, 48, 49, 0, 0, 0, 49, 0, 49, 8, 49, 0, 0, 0, 0, 49, 49, 8, 49, 50, 0, 49, 8, 0, 49, 50, 0, 50, 49, 49, 49, 50, 50, 0, 0, 9, 49, 0, 0, 49, 18, 0, 0, 0, 8, 49, 50, 0, 50, 49, 0, 50, 49, 50, 0, 49, 0, 8, 0, 0, 50, 18, 0, 49, 0, 18, 8, 8, 7, 18, 0, 49, 0, 49, 0, 49, 0, 18, 49, 0, 0, 49, 50, 49, 0, 50, 50, 0, 0, 0, 50, 50, 49, 0, 0, 0, 0, 8, 0, 0, 0, 8, 9, 0, 0, 50, 49, 49, 0, 0, 50, 8, 0, 4, 0, 50, 0, 0, 49, 0, 0, 49, 0, 0, 18, 4, 0, 0, 49, 10, 49, 49, 9, 8, 0, 18, 49, 50, 0, 49, 0, 0, 0, 18, 0, 0, 0, 10, 0, 0, 50, 0, 8, 18, 0, 0, 0, 0, 0, 10, 49, 49, 0, 50, 49, 0, 0, 0, 49, 50, 0, 49, 49, 8, 50, 49, 49, 49, 0, 49, 0, 50, 49, 0, 8, 50, 0, 8, 0, 0, 0, 50, 8, 49, 0, 50, 0, 0, 0, 49, 49, 0, 0, 49, 0, 8, 49, 49, 49, 49, 18, 49, 50, 49, 0, 50, 49, 7, 49, 0, 0, 49, 50, 0, 49, 0, 0, 49, 0, 0, 18, 8, 9, 0, 50, 0, 0, 0, 0, 50, 0, 8, 18, 49, 0, 0, 18, 0, 0, 18, 50, 0, 0, 49, 50, 0, 50, 0, 50, 0
+Het , 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 41, 0, 0, 0, 41, 41, 1, 0, 0, 0, 0, 0, 41, 0, 41, 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 41, 41, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 41, 41, 0, 0, 0, 0, 0, 0, 0, 0, 41, 0, 37, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 39, 0, 0, 41, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 39, 0, 0, 0, 0, 41, 0, 0, 0, 0, 0, 0, 40, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 41, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 41, 0, 0, 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41, 41, 0, 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Hom , 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Missing , 50, 0, 50, 50, 50, 1, 50, 1, 0, 1, 1, 32, 50, 1, 0, 1, 50, 50, 50, 50, 1, 1, 0, 50, 0, 50, 50, 0, 32, 50, 50, 50, 50, 1, 50, 50, 50, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 50, 50, 0, 1, 1, 0, 1, 0, 50, 0, 50, 1, 1, 1, 0, 1, 1, 1, 50, 0, 50, 31, 1, 1, 50, 1, 1, 50, 50, 50, 1, 50, 1, 1, 1, 50, 50, 50, 50, 1, 1, 1, 1, 0, 50, 1, 1, 50, 1, 0, 50, 0, 1, 1, 1, 0, 0, 50, 50, 0, 1, 50, 50, 1, 32, 50, 50, 50, 1, 1, 0, 50, 0, 1, 50, 0, 1, 0, 50, 1, 50, 1, 50, 50, 0, 32, 50, 1, 50, 32, 1, 1, 1, 32, 50, 1, 50, 1, 50, 1, 50, 32, 1, 50, 50, 1, 0, 1, 50, 0, 0, 50, 50, 50, 0, 0, 1, 50, 50, 50, 50, 1, 50, 50, 50, 1, 0, 50, 50, 0, 1, 1, 50, 50, 0, 1, 50, 1, 50, 0, 50, 50, 1, 50, 50, 1, 50, 50, 32, 32, 50, 50, 1, 1, 1, 1, 0, 1, 50, 32, 1, 0, 50, 1, 50, 50, 50, 32, 50, 50, 50, 1, 50, 50, 0, 50, 1, 32, 50, 50, 50, 50, 50, 0, 0, 1, 50, 0, 1, 50, 50, 50, 0, 0, 50, 1, 1, 1, 0, 1, 0, 1, 50, 1, 50, 0, 1, 50, 1, 0, 50, 1, 50, 50, 50, 0, 1, 1, 50, 0, 50, 50, 50, 1, 1, 50, 50, 1, 50, 1, 1, 1, 1, 1, 32, 1, 0, 1, 50, 0, 1, 1, 1, 50, 50, 1, 0, 50, 1, 50, 50, 1, 50, 50, 32, 1, 0, 50, 0, 50, 50, 50, 50, 0, 50, 1, 32, 1, 50, 50, 32, 50, 50, 32, 0, 50, 50, 1, 0, 50, 0, 50, 0, 50
+</pre>
+<p>
+
+<!--==========================================================================
+	Codon change table
+	========================================================================== -->
+	
+<hr> 
+<a name="codonChanges">
+<center>
+<b> Codon changes</b> <p>
+
+	<div class="note">
+		How to read this table: <br>
+		- Rows are reference codons and columns are changed codons. E.g. Row 'AAA' column 'TAA' indicates how many 'AAA' codons have been replaced by 'TAA' codons.<br>
+		- Red background colors indicate that more changes happened (heat-map).<br>
+		- Diagonals are indicated using grey background color <br> 
+		- WARNING: This table may include different translation codon tables (e.g. mamalian DNA and mitochondrial DNA).<br>
+		<p>
+	</div><p>
+
+  
+<table border=1>
+	<thead>
+		<tr> 
+			<th> &nbsp; </th>
+			
+		</tr>
+	</thead>
+</table>
+</center>
+
+<!--==========================================================================
+	Amino acid change table
+	========================================================================== -->
+
+<hr> 
+<a name="aaChanges">
+<center>
+<b> Amino acid changes</b><p> 
+
+	<div class="note">
+		How to read this table: <br>
+		- Rows are reference amino acids and columns are changed amino acids. E.g. Row 'A' column 'E' indicates how many 'A' amino acids have been replaced by 'E' amino acids.<br>
+		- Red background colors indicate that more changes happened (heat-map).<br>
+		- Diagonals are indicated using grey background color <br> 
+		- WARNING: This table may include different translation codon tables (e.g. mamalian DNA and mitochondrial DNA).<br>
+		<p>
+	</div><p>
+
+<table border=1>
+	<thead>
+		<tr> 
+			<th> &nbsp; </th>
+			
+		</tr>
+	</thead>
+</table>
+</center>
+
+<!--==========================================================================
+	Chromosome variants table
+	========================================================================== -->
+
+<hr> 
+<a name="chrChanges">
+<center>
+<b> Variants by chromosome</b><p> 
+
+<center>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chd=e:AAAA&chbh=8,4,2&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chtt=Variants+histogram%3A+M&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position"><br>
+		M, Position,0,1
+M,Count,0,0
+
+	</pre>
+</center>
+
+<!--==========================================================================
+	Variants by gene 
+	========================================================================== -->
+
+<center>
+	<hr>
+	<b> Details by gene </b><p>
+	<p>
+	<b><a href="snpEff_genes.txt">Here</a></b> you can find a tab-separated table.
+</center>
+</div>
+</center>
