@@ -1,0 +1,452 @@
+{
+ "AMA1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1458051,
+    1461134,
+    -11,
+    3084
+   ]
+  ],
+  "included_targets": [
+   "AMA1"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "TRAG36-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    2174754,
+    2177117,
+    -11,
+    2364
+   ]
+  ],
+  "included_targets": [
+   "TRAG36-1"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "DBP2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    103863,
+    107579,
+    -11,
+    3717
+   ]
+  ],
+  "included_targets": [
+   "DBP2"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "CRT": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    440214,
+    446694,
+    -11,
+    6481
+   ]
+  ],
+  "included_targets": [
+   "CRT"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "RBP2b": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    33162,
+    43854,
+    -11,
+    10693
+   ]
+  ],
+  "included_targets": [
+   "RBP2b"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "CSP": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1508564,
+    1509955,
+    -11,
+    1392
+   ]
+  ],
+  "included_targets": [
+   "CSP"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "DBP": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    980909,
+    987187,
+    -11,
+    6279
+   ]
+  ],
+  "included_targets": [
+   "DBP"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "TRAG38": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    150788,
+    152179,
+    -11,
+    1392
+   ]
+  ],
+  "included_targets": [
+   "TRAG38"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "GAMA": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    252836,
+    256550,
+    -11,
+    3715
+   ]
+  ],
+  "included_targets": [
+   "GAMA"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "DHFR-TS": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1075434,
+    1080116,
+    -11,
+    4683
+   ]
+  ],
+  "included_targets": [
+   "DHFR-TS"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "TRAG11": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1390051,
+    1392915,
+    -11,
+    2865
+   ]
+  ],
+  "included_targets": [
+   "TRAG11"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "RBP2c": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1458461,
+    1467538,
+    -11,
+    9078
+   ]
+  ],
+  "included_targets": [
+   "RBP2c"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "MDR1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    476527,
+    484084,
+    -11,
+    7558
+   ]
+  ],
+  "included_targets": [
+   "MDR1"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "TRAG34": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    45295,
+    46560,
+    -11,
+    1266
+   ]
+  ],
+  "included_targets": [
+   "TRAG34"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "RBP1b": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    59462,
+    70628,
+    -11,
+    11167
+   ]
+  ],
+  "included_targets": [
+   "RBP1b"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "RBP1a": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    70956,
+    81130,
+    -11,
+    10175
+   ]
+  ],
+  "included_targets": [
+   "RBP1a"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "MSP1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    1215282,
+    1220786,
+    -11,
+    5505
+   ]
+  ],
+  "included_targets": [
+   "MSP1"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "TRAG21": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    80918,
+    82991,
+    -11,
+    2074
+   ]
+  ],
+  "included_targets": [
+   "TRAG21"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "RBP2a": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    112536,
+    121531,
+    -11,
+    8996
+   ]
+  ],
+  "included_targets": [
+   "RBP2a"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "PPPK-DHPS": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1269606,
+    1272807,
+    -11,
+    3202
+   ]
+  ],
+  "included_targets": [
+   "PPPK-DHPS"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "TRAG22": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2983875,
+    2988686,
+    -11,
+    4812
+   ]
+  ],
+  "included_targets": [
+   "TRAG22"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "TRAG19": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    68355,
+    71599,
+    -11,
+    3245
+   ]
+  ],
+  "included_targets": [
+   "TRAG19"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "TRAG26": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "Transfer.PvP01_00_1.final",
+    39737,
+    41081,
+    -25,
+    1345
+   ]
+  ],
+  "included_targets": [
+   "TRAG26"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "TRAG36-2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "Transfer.PvP01_00_1.final",
+    57819,
+    59079,
+    -25,
+    1261
+   ]
+  ],
+  "included_targets": [
+   "TRAG36-2"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ },
+ "TRAG32": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "Transfer.PvP01_00_1.final",
+    72511,
+    75223,
+    -25,
+    2713
+   ]
+  ],
+  "included_targets": [
+   "TRAG32"
+  ],
+  "region_capture_types": "whole",
+  "parallel_processes": 2
+ }
+}

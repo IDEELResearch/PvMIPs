@@ -1,0 +1,2 @@
+#name1	strand1	zstart1	end1	length1	name2	strand2	zstart2	end2	zstart2+	end2+	length2	identity	idPct	coverage	covPct
+SNP-379_C0	+	0	471	471	SNP-379_ref	+	0	471	0	471	471	471/471	100.0%	471/471	100.0%

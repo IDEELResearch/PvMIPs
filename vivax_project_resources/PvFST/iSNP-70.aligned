@@ -1,0 +1,2 @@
+#name1	strand1	zstart1	end1	length1	name2	strand2	zstart2	end2	zstart2+	end2+	length2	identity	idPct	coverage	covPct
+iSNP-70_C0	+	0	565	565	iSNP-70_ref	+	0	565	0	565	565	565/565	100.0%	565/565	100.0%

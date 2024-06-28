@@ -1,0 +1,10281 @@
+{
+ "SNP-125": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    270269,
+    270569,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-125"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-126": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    314579,
+    314879,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-126"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-127": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    357968,
+    358268,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-127"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-128": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    413002,
+    413302,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-128"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-22": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    494632,
+    494932,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-22"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "CRMP1-2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    498897,
+    499197,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "CRMP1-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "CRMP1-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    499874,
+    500174,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "CRMP1-1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-3": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    507740,
+    508040,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-12": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    509134,
+    509462,
+    -11,
+    329
+   ]
+  ],
+  "included_targets": [
+   "SNP-12",
+   "SNP-4"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-23": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    509893,
+    510193,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-23"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-24": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    512237,
+    512537,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-24"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-5": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    514388,
+    514688,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-5"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-25": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    521393,
+    521693,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-25"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-129": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    525635,
+    525935,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-129"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-130": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    530085,
+    530385,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-130"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-131": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    556757,
+    557057,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-131"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-132": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    563135,
+    563435,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-132"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-133": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    595719,
+    596019,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-133"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-134": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    607968,
+    608268,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-134"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-135": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    721461,
+    721761,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-135"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-6": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    747832,
+    748134,
+    -11,
+    303
+   ]
+  ],
+  "included_targets": [
+   "SNP-6"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-136": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    832084,
+    832384,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-136"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-137": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    897851,
+    898151,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-137"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-138": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    956414,
+    956714,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-138"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-139": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    956936,
+    957380,
+    -11,
+    445
+   ]
+  ],
+  "included_targets": [
+   "SNP-139",
+   "SNP-140"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-141": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    1023572,
+    1023872,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-141"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-26": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    1075824,
+    1076124,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-26"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-142": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    1121820,
+    1122120,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-142"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-143": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    1423856,
+    1424156,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-143"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-144": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    1456900,
+    1457200,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-144"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-27": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    1602553,
+    1602853,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-27"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-28": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    1612777,
+    1613077,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-28"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-29": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_07_v1",
+    1622983,
+    1623286,
+    -11,
+    304
+   ]
+  ],
+  "included_targets": [
+   "iSNP-29",
+   "iSNP-30"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-91": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    24114,
+    24414,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-91"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-92": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    37606,
+    37906,
+    -11,
+    301
+   ],
+   [
+    "Transfer.PvP01_00_14.final",
+    1282,
+    1582,
+    -26,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-92"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-229": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    98044,
+    98344,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-229"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-93": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    196167,
+    196467,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-93"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-94": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    303014,
+    303314,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-94"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-95": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    308441,
+    308741,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-95"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "TOP3": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    313672,
+    313972,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "TOP3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-96": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    321145,
+    321445,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-96"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "P47-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    323449,
+    323853,
+    -11,
+    405
+   ]
+  ],
+  "included_targets": [
+   "P47-1",
+   "P47-2",
+   "P47-3",
+   "SNP-230"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "P47-4": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    324082,
+    324382,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "P47-4"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "P48-45-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    327086,
+    327505,
+    -11,
+    420
+   ]
+  ],
+  "included_targets": [
+   "P48-45-1",
+   "P48-45-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "P48-45-3": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    327708,
+    328008,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "P48-45-3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-231": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    329539,
+    329839,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-231"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-97": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    332643,
+    332943,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-97"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-232": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    338658,
+    338958,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-232"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-98": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    362537,
+    362837,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-98"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-233": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    397091,
+    397391,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-233"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-99": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    398772,
+    399072,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-99"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-7": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    408075,
+    408377,
+    -11,
+    303
+   ]
+  ],
+  "included_targets": [
+   "SNP-7"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-234": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    424736,
+    425036,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-234"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-100": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    457640,
+    457940,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-100"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-235": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    459949,
+    460249,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-235"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-236": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    461246,
+    461546,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-236"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-237": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    464867,
+    465167,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-237"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-238": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    467161,
+    467461,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-238"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-101": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    492386,
+    492686,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-101"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ApiAP2-4": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    524180,
+    524480,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ApiAP2-4"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "IMC1k-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    571013,
+    571541,
+    -11,
+    529
+   ]
+  ],
+  "included_targets": [
+   "IMC1k-1",
+   "IMC1k-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-239": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    579324,
+    579624,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-239"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-102": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    595669,
+    595969,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-102"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-240": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    613938,
+    614238,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-240"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-241": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    673251,
+    673551,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-241"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-103": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    702229,
+    702529,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-103"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "TRAP-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    769366,
+    769666,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "TRAP-1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "TRAP-2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    769816,
+    770160,
+    -11,
+    345
+   ]
+  ],
+  "included_targets": [
+   "TRAP-2",
+   "TRAP-3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-242": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    792216,
+    792516,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-242"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-243": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    918564,
+    918864,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-243"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-104": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    926256,
+    926556,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-104"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-244": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    926846,
+    927146,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-244"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-245": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1013276,
+    1013576,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-245"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-246": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1135565,
+    1135865,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-246"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-247": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1154729,
+    1155029,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-247"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-248": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1185011,
+    1185311,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-248"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-249": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1205835,
+    1206135,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-249"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-250": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1275748,
+    1276048,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-250"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-105": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1304764,
+    1305064,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-105"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-251": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1385021,
+    1385321,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-251"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-252": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1394813,
+    1395113,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-252"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-253": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1430359,
+    1430659,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-253"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-254": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1521597,
+    1521897,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-254"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-255": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1543815,
+    1544115,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-255"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-106": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1592574,
+    1592874,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-106"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-107": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1604501,
+    1604801,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-107"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-256": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1617428,
+    1617728,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-256"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-257": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1653481,
+    1653781,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-257"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-258": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1738649,
+    1738949,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-258"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-259": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1754357,
+    1754657,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-259"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-8": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1869512,
+    1869812,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-8"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-260": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1874845,
+    1875145,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-260"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-261": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    1964746,
+    1965046,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-261"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-262": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2027340,
+    2027640,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-262"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-263": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2057228,
+    2057528,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-263"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-264": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2075793,
+    2076093,
+    -11,
+    301
+   ],
+   [
+    "Transfer.PvP01_00_36.final",
+    25859,
+    26159,
+    -26,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-264"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-265": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2093056,
+    2093356,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-265"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-108": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2110608,
+    2110908,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-108"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-109": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2127510,
+    2127810,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-109"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-110": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2279249,
+    2279549,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-110"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-266": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2364595,
+    2364895,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-266"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-267": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2412798,
+    2413098,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-267"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-268": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2449990,
+    2450290,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-268"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-269": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2522695,
+    2522995,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-269"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "TREP": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2669641,
+    2669941,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "TREP"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-270": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2684685,
+    2684985,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-270"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-271": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2708418,
+    2708718,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-271"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-272": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2714004,
+    2714304,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-272"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-111": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2922746,
+    2923046,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-111"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "CRMP4": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2955060,
+    2955360,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "CRMP4"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-273": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_12_v1",
+    2976478,
+    2976778,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-273"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-293": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    83195,
+    83495,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-293"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "NHE": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    202044,
+    202344,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "NHE"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-294": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    364841,
+    365141,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-294"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-295": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    446997,
+    447297,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-295"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-296": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    459680,
+    459980,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-296"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-297": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    477275,
+    477575,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-297"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-298": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    560519,
+    560819,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-298"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-299": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    614582,
+    614882,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-299"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-300": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    623391,
+    623691,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-300"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-301": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    635573,
+    635873,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-301"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-302": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    673455,
+    673755,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-302"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-303": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    683267,
+    683567,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-303"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-119": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    722425,
+    722725,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-119"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-120": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    762586,
+    762886,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-120"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-304": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    768046,
+    768346,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-304"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-305": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    934743,
+    935043,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-305"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-306": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1070783,
+    1071364,
+    -11,
+    582
+   ]
+  ],
+  "included_targets": [
+   "SNP-306",
+   "SNP-307"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-308": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1089264,
+    1089564,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-308"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-309": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1192508,
+    1192808,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-309"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-310": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1203235,
+    1203535,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-310"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-121": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1250680,
+    1250980,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-121"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "PPM5": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1296190,
+    1296490,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "PPM5"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-311": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1307021,
+    1307321,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-311"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-122": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1313362,
+    1313662,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-122"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-123": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1314505,
+    1314805,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-123"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-312": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1319361,
+    1319661,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-312"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-313": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1336450,
+    1336750,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-313"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-314": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1354170,
+    1354470,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-314"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-315": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1373208,
+    1373508,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-315"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-124": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1476884,
+    1477184,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-124"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-125": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1542359,
+    1542659,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-125"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-126": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1542706,
+    1543006,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-126"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-316": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1604263,
+    1604563,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-316"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-127": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1624429,
+    1624729,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-127"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-317": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1655135,
+    1655435,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-317"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-318": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1722296,
+    1722787,
+    -11,
+    492
+   ]
+  ],
+  "included_targets": [
+   "SNP-318",
+   "SNP-319"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-320": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1754614,
+    1754914,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-320"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "GyrA": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1799221,
+    1799521,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "GyrA"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-321": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1818229,
+    1818529,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-321"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-322": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1850090,
+    1850390,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-322"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "CCHL": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1863195,
+    1863495,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "CCHL"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-323": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1869122,
+    1869422,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-323"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-324": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1889586,
+    1889886,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-324"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-325": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1915033,
+    1915333,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-325"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "HAD3": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1921058,
+    1921358,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "HAD3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-326": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1923073,
+    1923373,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-326"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-9": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1923846,
+    1924201,
+    -11,
+    356
+   ]
+  ],
+  "included_targets": [
+   "SNP-9",
+   "SNP-10"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-327": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    1924508,
+    1924808,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-327"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-128": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2221195,
+    2221495,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-128"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-129": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2229016,
+    2229316,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-129"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-328": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2416797,
+    2417097,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-328"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-329": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2516714,
+    2517014,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-329"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-330": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2520938,
+    2521238,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-330"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-130": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2595513,
+    2595813,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-130"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-331": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2626062,
+    2626362,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-331"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-332": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2639794,
+    2640094,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-332"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "PSOP26-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2662363,
+    2662663,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "PSOP26-1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "PSOP26-2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2662860,
+    2663435,
+    -11,
+    576
+   ]
+  ],
+  "included_targets": [
+   "PSOP26-2",
+   "PSOP26-3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-333": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2695436,
+    2695745,
+    -11,
+    310
+   ]
+  ],
+  "included_targets": [
+   "SNP-333",
+   "SNP-334"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-335": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2779505,
+    2779805,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-335"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-336": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2793350,
+    2793650,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-336"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-131": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2794057,
+    2794357,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-131"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-337": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2810267,
+    2810567,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-337"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "LRR12": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2835328,
+    2835628,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "LRR12"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "G377-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2861932,
+    2862284,
+    -11,
+    353
+   ]
+  ],
+  "included_targets": [
+   "G377-1",
+   "G377-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-338": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2892376,
+    2892676,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-338"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-339": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2947038,
+    2947338,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-339"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "RBP3": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2957264,
+    2957564,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "RBP3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-132": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2963066,
+    2963366,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-132"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-340": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2964471,
+    2964771,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-340"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-341": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2964956,
+    2965782,
+    -11,
+    827
+   ]
+  ],
+  "included_targets": [
+   "SNP-341",
+   "SNP-342",
+   "SNP-343",
+   "SNP-344",
+   "SNP-345"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-346": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_14_v1",
+    2965879,
+    2966179,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-346"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    46427,
+    46727,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-13": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    210690,
+    210990,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-13"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-14": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    242815,
+    243115,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-14"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-3": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    342490,
+    342790,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-15": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    354106,
+    354406,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-15"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "MSH2-2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    360919,
+    361219,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "MSH2-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "POP1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    468385,
+    468685,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "POP1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-16": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    521656,
+    521956,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-16"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-17": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    521965,
+    522265,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-17"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-18": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    532729,
+    533302,
+    -11,
+    574
+   ]
+  ],
+  "included_targets": [
+   "SNP-18",
+   "SNP-19",
+   "SNP-20"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-21": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    563774,
+    564074,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-21"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-22": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    633032,
+    633332,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-22"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "g-tub": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    746359,
+    746659,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "g-tub"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-23": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    803350,
+    803650,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-23"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-24": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    838061,
+    838361,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-24"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-25": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    854583,
+    854883,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-25"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "WARP-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    866846,
+    867430,
+    -11,
+    585
+   ]
+  ],
+  "included_targets": [
+   "WARP-1",
+   "WARP-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-26": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    874902,
+    875202,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-26"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-4": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    894585,
+    894885,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-4"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-27": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    902987,
+    903396,
+    -11,
+    410
+   ]
+  ],
+  "included_targets": [
+   "SNP-27",
+   "SNP-28"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-29": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_01_v1",
+    986132,
+    986432,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-29"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-30": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    110841,
+    111141,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-30"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-31": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    155155,
+    155455,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-31"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-32": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    156137,
+    156437,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-32"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-33": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    158073,
+    158373,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-33"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-34": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    172261,
+    172561,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-34"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-5": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    211226,
+    211526,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-5"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "RPB9": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    224298,
+    224598,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "RPB9"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-35": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    239081,
+    239381,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-35"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-36": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    274684,
+    274984,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-36"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-37": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    327301,
+    327601,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-37"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-38": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    411081,
+    411381,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-38"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "UBP1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    418467,
+    418767,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "UBP1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "NT4": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    473509,
+    473809,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "NT4"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-39": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    501333,
+    501633,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-39"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-40": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    518112,
+    518412,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-40"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-41": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    524354,
+    524654,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-41"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-42": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    581886,
+    582186,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-42"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-43": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    690887,
+    691187,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-43"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-6": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_02_v1",
+    825100,
+    825400,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-6"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-44": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    150094,
+    150394,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-44"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-45": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    163310,
+    163610,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-45"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-46": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    185727,
+    186027,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-46"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-47": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    198874,
+    199174,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-47"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-48": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    284222,
+    284522,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-48"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ZRANB2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    369849,
+    370149,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ZRANB2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "PPM1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    442786,
+    443086,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "PPM1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-49": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    464479,
+    464779,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-49"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-50": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    501702,
+    502002,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-50"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-51": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    540273,
+    540573,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-51"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "DMT2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    552860,
+    553160,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "DMT2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-52": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    661458,
+    661758,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-52"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-53": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    689072,
+    689372,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-53"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-54": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    704433,
+    704733,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-54"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-55": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    713255,
+    713555,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-55"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-56": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    765140,
+    765440,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-56"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-7": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_03_v1",
+    767895,
+    768195,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-7"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-8": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    44328,
+    44628,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-8"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-9": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    51520,
+    51820,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-9"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-10": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    81863,
+    82163,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-10"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-57": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    263839,
+    264139,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-57"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    308096,
+    308396,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-58": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    309237,
+    309537,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-58"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ACS9-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    401196,
+    401772,
+    -11,
+    577
+   ]
+  ],
+  "included_targets": [
+   "ACS9-1",
+   "ACS9-2",
+   "ACS9-3",
+   "ACS9-4"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-11": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    427215,
+    427515,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-11"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-59": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    492894,
+    493194,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-59"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-60": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    506819,
+    507119,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-60"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-61": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    601766,
+    602066,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-61"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "P230": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    643478,
+    643778,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "P230"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "P230p": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    651958,
+    652258,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "P230p"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-62": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    667436,
+    667888,
+    -11,
+    453
+   ]
+  ],
+  "included_targets": [
+   "SNP-62",
+   "SNP-63"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-64": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    747541,
+    747841,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-64"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-65": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    749406,
+    749706,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-65"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-66": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    802184,
+    802484,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-66"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-67": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    852680,
+    852980,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-67"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-68": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    857572,
+    857872,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-68"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-69": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    921909,
+    922209,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-69"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-70": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    924997,
+    925297,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-70"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-71": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_04_v1",
+    982492,
+    982792,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-71"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-72": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    177159,
+    177459,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-72"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-73": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    179208,
+    179508,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-73"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-74": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    188229,
+    188529,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-74"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "PDI8": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    286091,
+    286391,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "PDI8"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-75": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    408850,
+    409150,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-75"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-76": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    484118,
+    484418,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-76"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-77": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    495120,
+    495420,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-77"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-78": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    496303,
+    496643,
+    -11,
+    341
+   ]
+  ],
+  "included_targets": [
+   "SNP-78",
+   "SNP-79"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-12": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    509764,
+    510064,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-12"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-80": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    560911,
+    561211,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-80"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-81": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    574842,
+    575148,
+    -11,
+    307
+   ]
+  ],
+  "included_targets": [
+   "SNP-81",
+   "SNP-82"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "YIF1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    576972,
+    577272,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "YIF1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    618141,
+    618441,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-83": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    685124,
+    685424,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-83"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    722642,
+    722942,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-84": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    728831,
+    729131,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-84"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-85": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    738559,
+    738859,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-85"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-86": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    789250,
+    789821,
+    -11,
+    572
+   ]
+  ],
+  "included_targets": [
+   "SNP-86",
+   "SNP-87",
+   "iSNP-13"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-88": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    810793,
+    811093,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-88"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-89": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    927810,
+    928110,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-89"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-14": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    939005,
+    939305,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-14"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-15": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    941747,
+    942047,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-15"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-90": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1031350,
+    1031650,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-90"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-91": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1067326,
+    1067626,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-91"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-133": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1070929,
+    1071229,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-133"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-92": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1092760,
+    1093060,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-92"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-93": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1311264,
+    1311564,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-93"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-94": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1312012,
+    1312312,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-94"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-16": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1325246,
+    1325546,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-16"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-95": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1331183,
+    1331483,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-95"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-96": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1360315,
+    1360615,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-96"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-97": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1387758,
+    1388058,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-97"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-98": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1404489,
+    1404789,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-98"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-99": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_05_v1",
+    1408977,
+    1409277,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-99"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-100": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    203532,
+    203832,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-100"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-101": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    285362,
+    285662,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-101"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-102": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    312808,
+    313108,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-102"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-103": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    447967,
+    448267,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-103"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-104": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    477083,
+    477383,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-104"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-105": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    501997,
+    502297,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-105"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-106": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    502515,
+    502903,
+    -11,
+    389
+   ]
+  ],
+  "included_targets": [
+   "SNP-106",
+   "SNP-107"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-108": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    503493,
+    503793,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-108"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-109": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    523001,
+    523301,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-109"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-110": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    526659,
+    526959,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-110"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-111": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    527264,
+    527564,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-111"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-112": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    530964,
+    531543,
+    -11,
+    580
+   ]
+  ],
+  "included_targets": [
+   "SNP-112",
+   "SNP-113"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "RPB7": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    549290,
+    549590,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "RPB7"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "MTRAP-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    588819,
+    589409,
+    -11,
+    591
+   ]
+  ],
+  "included_targets": [
+   "MTRAP-1",
+   "MTRAP-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-114": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    612383,
+    612683,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-114"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-115": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    646205,
+    646505,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-115"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "CLAMP": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    646714,
+    647014,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "CLAMP"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-17": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    647422,
+    647722,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-17"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-116": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    661377,
+    661677,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-116"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-117": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    665302,
+    665660,
+    -11,
+    359
+   ]
+  ],
+  "included_targets": [
+   "SNP-117",
+   "SNP-118"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-18": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    667627,
+    667927,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-18"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "P28-2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    668145,
+    668510,
+    -11,
+    366
+   ]
+  ],
+  "included_targets": [
+   "P28-2",
+   "P28-1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-19": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    668903,
+    669203,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-19"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-119": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    670523,
+    670823,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-119"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-20": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    674508,
+    674808,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-20"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "RimM": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    707948,
+    708248,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "RimM"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-21": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    759092,
+    759392,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-21"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-120": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    867087,
+    867387,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-120"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-121": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    884436,
+    884736,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-121"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-122": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    927720,
+    928020,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-122"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-123": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    932319,
+    932619,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-123"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-124": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_06_v1",
+    937489,
+    937789,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-124"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-145": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    111939,
+    112239,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-145"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-31": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    203716,
+    204016,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-31"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-146": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    209736,
+    210036,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-146"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-147": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    243035,
+    243335,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-147"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-148": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    260812,
+    261112,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-148"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "HDA2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    334877,
+    335177,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "HDA2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-149": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    495475,
+    495775,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-149"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-150": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    556103,
+    556403,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-150"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-151": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    562375,
+    562675,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-151"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-152": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    604120,
+    604420,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-152"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-153": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    606595,
+    606895,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-153"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-154": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    619390,
+    619690,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-154"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-32": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    637485,
+    637785,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-32"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "CYP19A": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    789693,
+    789993,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "CYP19A"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-155": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    820292,
+    820592,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-155"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-156": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    823721,
+    824021,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-156"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-33": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    826028,
+    826328,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-33"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-34": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    863782,
+    864082,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-34"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "Cap380-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    869461,
+    869761,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "Cap380-1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "Cap380-2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    875990,
+    876290,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "Cap380-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "Cap380-3": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    878166,
+    878466,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "Cap380-3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-157": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    883970,
+    884270,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-157"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-35": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    889229,
+    889529,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-35"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ABCI3": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    897119,
+    897419,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ABCI3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-158": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    914077,
+    914377,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-158"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ATPase7": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    926540,
+    926840,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ATPase7"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-36": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    938086,
+    938386,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-36"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "FNT": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1051547,
+    1051847,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "FNT"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-159": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1069039,
+    1069339,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-159"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-37": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1074056,
+    1074356,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-37"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-160": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1075151,
+    1075451,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-160"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "CTRP": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1110348,
+    1110648,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "CTRP"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-161": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1126106,
+    1126406,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-161"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-38": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1228428,
+    1228728,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-38"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-162": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1242850,
+    1243150,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-162"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-163": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1255648,
+    1255948,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-163"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-164": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1265272,
+    1265572,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-164"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-39": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1277064,
+    1277364,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-39"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-40": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1364496,
+    1364796,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-40"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-41": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1365656,
+    1365956,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-41"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-165": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1546274,
+    1546574,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-165"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-42": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1664163,
+    1664582,
+    -11,
+    420
+   ]
+  ],
+  "included_targets": [
+   "iSNP-42",
+   "iSNP-43"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-44": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_08_v1",
+    1667833,
+    1668133,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-44"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-45": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    166934,
+    167234,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-45"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-46": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    179708,
+    180008,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-46"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-166": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    434285,
+    434585,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-166"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-47": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    553133,
+    553433,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-47"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-167": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    718247,
+    718547,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-167"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-168": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    796713,
+    797013,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-168"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-169": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    806493,
+    806793,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-169"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-48": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    826687,
+    826987,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-48"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "NOP56": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    842494,
+    842794,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "NOP56"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-170": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    878524,
+    878824,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-170"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-171": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    892705,
+    893005,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-171"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-49": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1057906,
+    1058206,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-49"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "CDPK7-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1062798,
+    1063152,
+    -11,
+    355
+   ]
+  ],
+  "included_targets": [
+   "CDPK7-1",
+   "CDPK7-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-172": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1138692,
+    1138992,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-172"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "mtRNAP": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1155442,
+    1155742,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "mtRNAP"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-173": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1169820,
+    1170120,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-173"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ATG7": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1179822,
+    1180122,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ATG7"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-50": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1198057,
+    1198357,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-50"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-174": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1199341,
+    1199641,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-174"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-51": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1324999,
+    1325299,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-51"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-175": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1365502,
+    1365802,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-175"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-176": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1369526,
+    1369826,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-176"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-177": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1404471,
+    1404771,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-177"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-52": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1725341,
+    1725641,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-52"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-53": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1726342,
+    1726642,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-53"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-54": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1728811,
+    1729111,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-54"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-55": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1729821,
+    1730121,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-55"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-56": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1730304,
+    1730604,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-56"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-57": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1733136,
+    1733436,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-57"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-58": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1740918,
+    1741218,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-58"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ApiAP2-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1745463,
+    1745763,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ApiAP2-1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-178": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1751703,
+    1752003,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-178"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-59": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1759710,
+    1760010,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-59"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-179": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1874451,
+    1874751,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-179"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-180": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1896201,
+    1896501,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-180"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-181": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1914607,
+    1914907,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-181"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-182": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    1950655,
+    1951027,
+    -11,
+    373
+   ]
+  ],
+  "included_targets": [
+   "SNP-182",
+   "SNP-183"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-184": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    2101081,
+    2101381,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-184"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "MAEBL-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    2122843,
+    2123143,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "MAEBL-1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "MAEBL-2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_09_v1",
+    2124118,
+    2124418,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "MAEBL-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-60": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    337158,
+    337458,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-60"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-185": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    600835,
+    601135,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-185"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-186": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    653789,
+    654089,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-186"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "CCR4": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    654686,
+    654986,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "CCR4"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-61": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    753494,
+    753794,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-61"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "PhLP3": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    787994,
+    788294,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "PhLP3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-187": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    836252,
+    836552,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-187"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-188": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    928532,
+    928832,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-188"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-62": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    987710,
+    988010,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-62"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "RNAPI": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    1071953,
+    1072253,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "RNAPI"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-189": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    1097790,
+    1098090,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-189"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-190": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    1154075,
+    1154375,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-190"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-191": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    1159702,
+    1160002,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-191"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ALP2b-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    1228798,
+    1229098,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ALP2b-1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ALP2b-2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    1229265,
+    1229565,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ALP2b-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ALP2b-3": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    1230222,
+    1230522,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ALP2b-3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-192": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    1280040,
+    1280340,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-192"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-193": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_10_v1",
+    1384043,
+    1384343,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-193"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-63": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    38802,
+    39102,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-63"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-194": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    176050,
+    176350,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-194"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-195": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    213677,
+    213977,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-195"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-64": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    284271,
+    284571,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-64"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-196": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    313075,
+    313375,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-196"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-197": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    361755,
+    362055,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-197"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-198": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    373283,
+    373583,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-198"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-199": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    383893,
+    384193,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-199"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-200": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    432236,
+    432536,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-200"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-65": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    438627,
+    438927,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-65"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-201": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    446053,
+    446353,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-201"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-202": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    498890,
+    499190,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-202"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-203": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    536444,
+    536744,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-203"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-204": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    643779,
+    644079,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-204"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ARK3": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    651193,
+    651493,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ARK3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-66": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    786318,
+    786618,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-66"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-205": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    853714,
+    854014,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-205"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "PK4": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    917076,
+    917376,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "PK4"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-67": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    921077,
+    921377,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-67"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-68": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    960554,
+    960854,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-68"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ACS-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    963241,
+    963541,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ACS-1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ACS-2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    964539,
+    964839,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ACS-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-69": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    985099,
+    985399,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-69"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-206": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1029900,
+    1030200,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-206"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-207": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1056101,
+    1056401,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-207"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-208": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1075394,
+    1075694,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-208"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-209": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1148766,
+    1149066,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-209"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "AP2-SP3": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1172325,
+    1172625,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "AP2-SP3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-70": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1187579,
+    1188144,
+    -11,
+    566
+   ]
+  ],
+  "included_targets": [
+   "iSNP-70",
+   "iSNP-71"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-72": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1190637,
+    1190937,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-72"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-210": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1195741,
+    1196041,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-210"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-73": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1246078,
+    1246378,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-73"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-74": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1246407,
+    1246707,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-74"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-75": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1253799,
+    1254099,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-75"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "MSP10": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1256007,
+    1256307,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "MSP10"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-76": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1260889,
+    1261189,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-76"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-211": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1262801,
+    1263101,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-211"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "PSOP25-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1266034,
+    1266357,
+    -11,
+    324
+   ]
+  ],
+  "included_targets": [
+   "PSOP25-1",
+   "PSOP25-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-212": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1272656,
+    1272956,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-212"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-213": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1281761,
+    1282061,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-213"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ACS12": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1283272,
+    1283572,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ACS12"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-77": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1307961,
+    1308261,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-77"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-78": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1321694,
+    1321994,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-78"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-79": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1354143,
+    1354443,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-79"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-214": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1367204,
+    1367504,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-214"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-215": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1392672,
+    1392972,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-215"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-216": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1430381,
+    1430681,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-216"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-80": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1440065,
+    1440365,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-80"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-81": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1442007,
+    1442307,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-81"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-217": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1448817,
+    1449117,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-217"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-82": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1451693,
+    1451993,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-82"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "GWT1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1453736,
+    1454036,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "GWT1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-83": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1474451,
+    1474751,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-83"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-84": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1479873,
+    1480173,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-84"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-85": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1480478,
+    1480778,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-85"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "NAR1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1488998,
+    1489298,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "NAR1"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ApiAP2-2": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1508183,
+    1508483,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ApiAP2-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ApiAP2-3": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1513951,
+    1514251,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ApiAP2-3"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-218": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1532140,
+    1532440,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-218"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "ROP14": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1537505,
+    1537805,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "ROP14"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-86": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1548240,
+    1548540,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-86"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-87": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1548590,
+    1548890,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-87"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-88": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1553161,
+    1553461,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-88"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-89": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1569788,
+    1570362,
+    -11,
+    575
+   ]
+  ],
+  "included_targets": [
+   "iSNP-89",
+   "SNP-219"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-90": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1609682,
+    1609982,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-90"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SPT5": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1625828,
+    1626128,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SPT5"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-220": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1646565,
+    1646865,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-220"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-221": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1651223,
+    1651523,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-221"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-222": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1695671,
+    1695971,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-222"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-223": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1806096,
+    1806396,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-223"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-224": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1885712,
+    1886012,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-224"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-225": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1913150,
+    1913450,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-225"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-226": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1939660,
+    1939960,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-226"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-227": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    1961763,
+    1962063,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-227"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-228": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_11_v1",
+    2006086,
+    2006386,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-228"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-112": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    164948,
+    165248,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-112"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-274": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    290507,
+    290807,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-274"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-113": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    331106,
+    331406,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-113"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "CRMP3-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    334239,
+    334607,
+    -11,
+    369
+   ]
+  ],
+  "included_targets": [
+   "CRMP3-1",
+   "SNP-275"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-276": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    334767,
+    335067,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-276"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-277": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    336810,
+    337112,
+    -11,
+    303
+   ]
+  ],
+  "included_targets": [
+   "SNP-277",
+   "CRMP3-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-114": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    391896,
+    392196,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-114"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-278": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    418477,
+    418777,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-278"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-279": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    519028,
+    519328,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-279"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-280": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    609950,
+    610250,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-280"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-281": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    665853,
+    666153,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-281"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-282": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    756682,
+    756982,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-282"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SYN11": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    821334,
+    821634,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SYN11"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-283": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    995970,
+    996270,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-283"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-284": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    1000227,
+    1000527,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-284"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-285": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    1055760,
+    1056060,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-285"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-286": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    1211115,
+    1211415,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-286"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-115": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    1284207,
+    1284507,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-115"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-287": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    1285176,
+    1285476,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-287"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-288": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    1394944,
+    1395244,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-288"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-289": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    1433858,
+    1434158,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-289"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-290": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    1477862,
+    1478162,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-290"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-116": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    1551846,
+    1552146,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-116"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "RAP1-1": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    1661157,
+    1661467,
+    -11,
+    311
+   ]
+  ],
+  "included_targets": [
+   "RAP1-1",
+   "RAP1-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-117": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    1696636,
+    1696936,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-117"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-291": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    1771853,
+    1772153,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-291"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "iSNP-118": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    1943701,
+    1944001,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "iSNP-118"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-292": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_13_v1",
+    1982723,
+    1983023,
+    -11,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-292"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-347": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    0,
+    204,
+    -12,
+    205
+   ]
+  ],
+  "included_targets": [
+   "SNP-347"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-348": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    513,
+    813,
+    -12,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-348"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-349": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    1034,
+    1556,
+    -12,
+    523
+   ]
+  ],
+  "included_targets": [
+   "SNP-349",
+   "SNP-350"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "RPL4": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    1994,
+    2294,
+    -12,
+    301
+   ]
+  ],
+  "included_targets": [
+   "RPL4"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "RPL23": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    2301,
+    2610,
+    -12,
+    310
+   ]
+  ],
+  "included_targets": [
+   "RPL23",
+   "SNP-351"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-352": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    2631,
+    2931,
+    -12,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-352"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-353": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    3100,
+    3400,
+    -12,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-353"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-354": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    4019,
+    4932,
+    -12,
+    914
+   ]
+  ],
+  "included_targets": [
+   "SNP-354",
+   "SNP-355",
+   "SNP-356",
+   "SNP-357",
+   "SNP-358"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-359": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    5132,
+    5977,
+    -12,
+    846
+   ]
+  ],
+  "included_targets": [
+   "SNP-359",
+   "RPS8",
+   "SNP-360",
+   "SNP-361",
+   "SNP-362"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-363": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    6067,
+    7422,
+    -12,
+    1356
+   ]
+  ],
+  "included_targets": [
+   "SNP-363",
+   "SNP-364",
+   "SNP-365",
+   "SNP-366",
+   "SNP-367",
+   "SNP-368"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-369": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    7753,
+    8143,
+    -12,
+    391
+   ]
+  ],
+  "included_targets": [
+   "SNP-369",
+   "SNP-370",
+   "RPS12"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-371": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    8147,
+    8447,
+    -12,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-371"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-372": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    8674,
+    9338,
+    -12,
+    665
+   ]
+  ],
+  "included_targets": [
+   "SNP-372",
+   "SNP-373",
+   "TUFA",
+   "SNP-374"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-375": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    9553,
+    10110,
+    -12,
+    558
+   ]
+  ],
+  "included_targets": [
+   "SNP-375",
+   "ORF78"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-376": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    11034,
+    11554,
+    -12,
+    521
+   ]
+  ],
+  "included_targets": [
+   "SNP-376",
+   "SNP-377"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-378": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    12472,
+    12772,
+    -12,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-378"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-379": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    12820,
+    13291,
+    -12,
+    472
+   ]
+  ],
+  "included_targets": [
+   "SNP-379",
+   "SNP-11"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-380": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    14056,
+    14791,
+    -12,
+    736
+   ]
+  ],
+  "included_targets": [
+   "SNP-380",
+   "SNP-381",
+   "SNP-382",
+   "SNP-383",
+   "SNP-384",
+   "rpoD-2"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-385": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    15490,
+    16971,
+    -12,
+    1482
+   ]
+  ],
+  "included_targets": [
+   "SNP-385",
+   "SNP-386",
+   "SNP-387",
+   "rpoD-1",
+   "SNP-388",
+   "SNP-389",
+   "SNP-390",
+   "SNP-391",
+   "SNP-392",
+   "SNP-393",
+   "SNP-394"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-395": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    17556,
+    17856,
+    -12,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-395"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-396": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    17884,
+    18850,
+    -12,
+    967
+   ]
+  ],
+  "included_targets": [
+   "SNP-396",
+   "rpoC-3",
+   "SNP-397",
+   "rpoC-1",
+   "SNP-398",
+   "SNP-399",
+   "rpoC-2",
+   "SNP-400"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "rpoC-4": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    18957,
+    19576,
+    -12,
+    620
+   ]
+  ],
+  "included_targets": [
+   "rpoC-4",
+   "SNP-401",
+   "SNP-402",
+   "SNP-403"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-404": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    19724,
+    20320,
+    -12,
+    597
+   ]
+  ],
+  "included_targets": [
+   "SNP-404",
+   "SNP-405",
+   "SNP-406",
+   "SNP-407"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-408": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    20377,
+    20677,
+    -12,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-408"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-409": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    21600,
+    21900,
+    -12,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-409"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-410": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    22072,
+    22828,
+    -12,
+    757
+   ]
+  ],
+  "included_targets": [
+   "SNP-410",
+   "SNP-411",
+   "SNP-412",
+   "ORF51",
+   "SNP-413"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-414": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    23318,
+    24630,
+    -12,
+    1313
+   ]
+  ],
+  "included_targets": [
+   "SNP-414",
+   "SNP-415",
+   "SNP-416",
+   "SNP-417",
+   "SNP-418",
+   "SNP-419",
+   "SNP-420",
+   "SNP-421",
+   "SNP-422",
+   "SNP-423",
+   "SNP-424",
+   "SNP-425",
+   "SNP-426"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-427": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    25619,
+    25919,
+    -12,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-427"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-428": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    26299,
+    26769,
+    -12,
+    471
+   ]
+  ],
+  "included_targets": [
+   "SNP-428",
+   "SNP-429"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-430": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    26842,
+    27142,
+    -12,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-430"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-431": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "PvP01_API_v1",
+    28903,
+    29203,
+    -12,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-431"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ },
+ "SNP-432": {
+  "resource_dir": "/opt/project_resources",
+  "design_dir": "/opt/analysis",
+  "final_target_regions": [
+   [
+    "Transfer.PvP01_00_134.final",
+    1365,
+    1665,
+    -27,
+    301
+   ]
+  ],
+  "included_targets": [
+   "SNP-432"
+  ],
+  "region_capture_types": "targets",
+  "parallel_processes": 2
+ }
+}

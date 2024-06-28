@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+cp /opt/analysis/AMA1/AMA1.pdf /opt/project_resources/pdfs/AMA1.pdf
+cp /opt/analysis/TRAG36-1/TRAG36-1.pdf /opt/project_resources/pdfs/TRAG36-1.pdf
+cp /opt/analysis/DBP2/DBP2.pdf /opt/project_resources/pdfs/DBP2.pdf
+cp /opt/analysis/CRT/CRT.pdf /opt/project_resources/pdfs/CRT.pdf
+cp /opt/analysis/RBP2b/RBP2b.pdf /opt/project_resources/pdfs/RBP2b.pdf
+cp /opt/analysis/CSP/CSP.pdf /opt/project_resources/pdfs/CSP.pdf
+cp /opt/analysis/DBP/DBP.pdf /opt/project_resources/pdfs/DBP.pdf
+cp /opt/analysis/TRAG38/TRAG38.pdf /opt/project_resources/pdfs/TRAG38.pdf
+cp /opt/analysis/GAMA/GAMA.pdf /opt/project_resources/pdfs/GAMA.pdf
+cp /opt/analysis/DHFR-TS/DHFR-TS.pdf /opt/project_resources/pdfs/DHFR-TS.pdf
+cp /opt/analysis/TRAG11/TRAG11.pdf /opt/project_resources/pdfs/TRAG11.pdf
+cp /opt/analysis/RBP2c/RBP2c.pdf /opt/project_resources/pdfs/RBP2c.pdf
+cp /opt/analysis/MDR1/MDR1.pdf /opt/project_resources/pdfs/MDR1.pdf
+cp /opt/analysis/TRAG34/TRAG34.pdf /opt/project_resources/pdfs/TRAG34.pdf
+cp /opt/analysis/RBP1b/RBP1b.pdf /opt/project_resources/pdfs/RBP1b.pdf
+cp /opt/analysis/RBP1a/RBP1a.pdf /opt/project_resources/pdfs/RBP1a.pdf
+cp /opt/analysis/MSP1/MSP1.pdf /opt/project_resources/pdfs/MSP1.pdf
+cp /opt/analysis/TRAG21/TRAG21.pdf /opt/project_resources/pdfs/TRAG21.pdf
+cp /opt/analysis/RBP2a/RBP2a.pdf /opt/project_resources/pdfs/RBP2a.pdf
+cp /opt/analysis/PPPK-DHPS/PPPK-DHPS.pdf /opt/project_resources/pdfs/PPPK-DHPS.pdf
+cp /opt/analysis/TRAG22/TRAG22.pdf /opt/project_resources/pdfs/TRAG22.pdf
+cp /opt/analysis/TRAG19/TRAG19.pdf /opt/project_resources/pdfs/TRAG19.pdf
+cp /opt/analysis/TRAG26/TRAG26.pdf /opt/project_resources/pdfs/TRAG26.pdf
+cp /opt/analysis/TRAG36-2/TRAG36-2.pdf /opt/project_resources/pdfs/TRAG36-2.pdf
+cp /opt/analysis/TRAG32/TRAG32.pdf /opt/project_resources/pdfs/TRAG32.pdf
