@@ -1,0 +1,148 @@
+This is cutadapt 2.9 with Python 3.6.6
+Command line parameters: --interleaved -a file:/nas02/apps/trimmomatic-0.36/Trimmomatic-0.36/adapters/TruSeq3-PE.fa -A file:/nas02/apps/trimmomatic-0.36/Trimmomatic-0.36/adapters/TruSeq3-PE.fa -m 30 /nas/longleaf/home/zpopkinh/Pvivax_resources/wgs_pe_improved_global/fastq/SRS693296/SRR1562555_1.fastq.gz /nas/longleaf/home/zpopkinh/Pvivax_resources/wgs_pe_improved_global/fastq/SRS693296/SRR1562555_2.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 1251.05 s (72 us/read; 0.84 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:         17,493,100
+  Read 1 with adapter:                 652,077 (3.7%)
+  Read 2 with adapter:                 670,339 (3.8%)
+Pairs written (passing filters):    17,493,099 (100.0%)
+
+Total basepairs processed: 3,533,606,200 bp
+  Read 1: 1,766,803,100 bp
+  Read 2: 1,766,803,100 bp
+Total written (filtered):  3,529,151,710 bp (99.9%)
+  Read 1: 1,764,602,561 bp
+  Read 2: 1,764,549,149 bp
+
+=== First read: Adapter PrefixPE/1 ===
+
+Sequence: TACACTCTTTCCCTACACGACGCTCTTCCGATCT; Type: regular 3'; Length: 34; Trimmed: 313190 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 24.9%
+  C: 23.2%
+  G: 26.2%
+  T: 25.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	210930	273329.7	0	210930
+4	75103	68332.4	0	75103
+5	19635	17083.1	0	19635
+6	3863	4270.8	0	3863
+7	926	1067.7	0	926
+8	212	266.9	0	212
+9	862	66.7	0	81 781
+10	1157	16.7	1	33 1124
+11	405	4.2	1	5 400
+12	74	1.0	1	0 74
+13	16	0.3	1	2 14
+14	5	0.1	1	0 5
+26	1	0.0	2	0 0 1
+50	1	0.0	3	1
+
+
+=== First read: Adapter PrefixPE/2 ===
+
+Sequence: GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT; Type: regular 3'; Length: 34; Trimmed: 338887 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 23.3%
+  C: 19.4%
+  G: 26.9%
+  T: 30.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	265048	273329.7	0	265048
+4	59650	68332.4	0	59650
+5	10283	17083.1	0	10283
+6	2355	4270.8	0	2355
+7	571	1067.7	0	571
+8	89	266.9	0	89
+9	408	66.7	0	21 387
+10	348	16.7	1	15 333
+11	102	4.2	1	0 102
+12	23	1.0	1	0 23
+13	8	0.3	1	0 8
+14	2	0.1	1	0 2
+
+
+=== Second read: Adapter PrefixPE/1 ===
+
+Sequence: TACACTCTTTCCCTACACGACGCTCTTCCGATCT; Type: regular 3'; Length: 34; Trimmed: 309097 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 25.0%
+  C: 23.2%
+  G: 26.3%
+  T: 25.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	208370	273329.7	0	208370
+4	73987	68332.4	0	73987
+5	19291	17083.1	0	19291
+6	3683	4270.8	0	3683
+7	980	1067.7	0	980
+8	244	266.9	0	244
+9	901	66.7	0	107 794
+10	1141	16.7	1	37 1104
+11	382	4.2	1	10 372
+12	97	1.0	1	1 96
+13	14	0.3	1	1 13
+14	3	0.1	1	0 3
+15	2	0.0	1	0 2
+37	1	0.0	3	0 1
+57	1	0.0	3	0 0 1
+
+
+=== Second read: Adapter PrefixPE/2 ===
+
+Sequence: GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT; Type: regular 3'; Length: 34; Trimmed: 361242 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 22.8%
+  C: 23.7%
+  G: 25.1%
+  T: 28.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	287587	273329.7	0	287587
+4	59385	68332.4	0	59385
+5	10310	17083.1	0	10310
+6	2342	4270.8	0	2342
+7	545	1067.7	0	545
+8	91	266.9	0	91
+9	445	66.7	0	24 421
+10	364	16.7	1	6 358
+11	123	4.2	1	0 123
+12	34	1.0	1	0 34
+13	9	0.3	1	0 9
+14	1	0.1	1	0 1
+19	1	0.0	1	1
+37	1	0.0	3	0 0 1
+47	1	0.0	3	0 0 0 1
+50	1	0.0	3	0 0 0 1
+58	1	0.0	3	0 0 0 1
+101	1	0.0	3	0 1

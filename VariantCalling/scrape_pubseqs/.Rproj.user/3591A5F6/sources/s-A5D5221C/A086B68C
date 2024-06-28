@@ -1,0 +1,26 @@
+{
+    "id": "A086B68C",
+    "path": "C:/Users/zpopkinh/OneDrive - University of North Carolina at Chapel Hill/Pvivax MIP Design/VivID_Seq/scrape_pubseqs/02-organize_NGS.R",
+    "project_path": "02-organize_NGS.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1625164471626.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "23,0",
+        "scrollLine": "3"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1623357282,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1626369477239,
+    "read_only": false,
+    "read_only_alternatives": []
+}

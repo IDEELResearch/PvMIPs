@@ -1,0 +1,15 @@
+# config file for QC pipeline
+reference: /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+runs: /nas/longleaf/home/zpopkinh/Pvivax_resources/wgs_se_improved_global/globalvivid_run_map.tab.txt
+# note, the sepeglobal was a temporary symlink fix that caused downstream issues. just need to run se seperately for QC
+aligned: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged
+regions: /nas/longleaf/home/zpopkinh/Pvivax_resources/regions/chroms.bed
+rmd: /nas/longleaf/home/zpopkinh/Pvivax_resources/wgs_qc_global_se/wgs_qc_report.Rmd
+min_depth: 4
+max_depth: 1000000
+min_base_qual: 20
+min_mapping_qual: 10
+threads: 4
+memory: 8
+outdir: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc
+windows: /nas/longleaf/home/zpopkinh/Pvivax_resources/regions/chroms_window1kb.bed

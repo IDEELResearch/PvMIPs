@@ -1,0 +1,166 @@
+This is cutadapt 2.9 with Python 3.6.6
+Command line parameters: --interleaved -a file:/nas02/apps/trimmomatic-0.36/Trimmomatic-0.36/adapters/TruSeq3-PE.fa -A file:/nas02/apps/trimmomatic-0.36/Trimmomatic-0.36/adapters/TruSeq3-PE.fa -m 30 /nas/longleaf/home/zpopkinh/Pvivax_resources/wgs_pe_improved_global/fastq/SRS1061164/SRR2316893_1.fastq.gz /nas/longleaf/home/zpopkinh/Pvivax_resources/wgs_pe_improved_global/fastq/SRS1061164/SRR2316893_2.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 898.55 s (97 us/read; 0.62 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:          9,251,583
+  Read 1 with adapter:                 331,389 (3.6%)
+  Read 2 with adapter:                 338,901 (3.7%)
+Pairs written (passing filters):     9,251,578 (100.0%)
+
+Total basepairs processed: 1,850,316,600 bp
+  Read 1:   915,906,717 bp
+  Read 2:   934,409,883 bp
+Total written (filtered):  1,848,033,154 bp (99.9%)
+  Read 1:   914,776,634 bp
+  Read 2:   933,256,520 bp
+
+=== First read: Adapter PrefixPE/1 ===
+
+Sequence: TACACTCTTTCCCTACACGACGCTCTTCCGATCT; Type: regular 3'; Length: 34; Trimmed: 181898 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 31.7%
+  C: 18.1%
+  G: 18.7%
+  T: 31.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	119543	144556.0	0	119543
+4	49412	36139.0	0	49412
+5	8698	9034.7	0	8698
+6	2241	2258.7	0	2241
+7	396	564.7	0	396
+8	112	141.2	0	112
+9	522	35.3	0	51 471
+10	723	8.8	1	24 699
+11	190	2.2	1	1 189
+12	45	0.6	1	0 45
+13	13	0.1	1	2 11
+14	3	0.0	1	0 3
+
+
+=== First read: Adapter PrefixPE/2 ===
+
+Sequence: GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT; Type: regular 3'; Length: 34; Trimmed: 149491 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 28.0%
+  C: 12.4%
+  G: 23.5%
+  T: 36.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	113147	144556.0	0	113147
+4	29506	36139.0	0	29506
+5	4639	9034.7	0	4639
+6	1284	2258.7	0	1284
+7	304	564.7	0	304
+8	67	141.2	0	67
+9	192	35.3	0	24 168
+10	200	8.8	1	5 195
+11	82	2.2	1	0 82
+12	25	0.6	1	0 25
+13	4	0.1	1	0 4
+14	1	0.0	1	0 1
+20	1	0.0	2	0 0 1
+31	1	0.0	3	0 0 0 1
+32	1	0.0	3	0 0 1
+39	2	0.0	3	1 0 0 1
+42	2	0.0	3	0 1 1
+43	1	0.0	3	0 1
+46	1	0.0	3	0 0 1
+47	1	0.0	3	0 0 0 1
+49	1	0.0	3	0 0 1
+51	1	0.0	3	0 0 0 1
+53	1	0.0	3	0 0 0 1
+54	3	0.0	3	0 1 2
+55	2	0.0	3	0 0 2
+58	1	0.0	3	0 0 1
+59	1	0.0	3	0 0 0 1
+60	1	0.0	3	0 0 1
+64	4	0.0	3	0 0 3 1
+65	2	0.0	3	0 0 2
+66	1	0.0	3	0 1
+67	2	0.0	3	0 1 1
+69	5	0.0	3	0 0 4 1
+70	1	0.0	3	0 0 0 1
+90	1	0.0	3	0 1
+94	2	0.0	3	0 0 2
+99	1	0.0	3	0 0 1
+
+
+=== Second read: Adapter PrefixPE/1 ===
+
+Sequence: TACACTCTTTCCCTACACGACGCTCTTCCGATCT; Type: regular 3'; Length: 34; Trimmed: 184992 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 31.8%
+  C: 18.0%
+  G: 18.8%
+  T: 31.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	121645	144556.0	0	121645
+4	50279	36139.0	0	50279
+5	8779	9034.7	0	8779
+6	2261	2258.7	0	2261
+7	379	564.7	0	379
+8	110	141.2	0	110
+9	506	35.3	0	38 468
+10	750	8.8	1	23 727
+11	230	2.2	1	2 228
+12	35	0.6	1	0 35
+13	13	0.1	1	0 13
+14	3	0.0	1	0 3
+15	1	0.0	1	0 1
+18	1	0.0	1	0 1
+
+
+=== Second read: Adapter PrefixPE/2 ===
+
+Sequence: GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT; Type: regular 3'; Length: 34; Trimmed: 153909 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 28.2%
+  C: 12.2%
+  G: 23.4%
+  T: 36.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	116800	144556.0	0	116800
+4	30268	36139.0	0	30268
+5	4610	9034.7	0	4610
+6	1309	2258.7	0	1309
+7	298	564.7	0	298
+8	73	141.2	0	73
+9	199	35.3	0	21 178
+10	225	8.8	1	5 220
+11	86	2.2	1	0 86
+12	30	0.6	1	0 30
+13	8	0.1	1	0 8
+14	1	0.0	1	0 1
+15	1	0.0	1	0 1
+39	1	0.0	3	0 0 0 1

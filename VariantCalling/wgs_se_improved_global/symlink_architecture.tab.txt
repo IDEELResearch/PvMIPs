@@ -1,0 +1,11 @@
+SRP081144	/pine/scr/z/p/zpopkinh/Pvivax_MIPs/fastqs/SE/SRR4019023.fastq.gz	SRP081144/SRR4019023.fastq.gz
+SRP081144	/pine/scr/z/p/zpopkinh/Pvivax_MIPs/fastqs/SE/SRR4034883.fastq.gz	SRP081144/SRR4034883.fastq.gz
+SRR5098034	/pine/scr/z/p/zpopkinh/Pvivax_MIPs/fastqs/SE/SRR5098034.fastq.gz	SRR5098034/SRR5098034.fastq.gz
+SRR5099324	/pine/scr/z/p/zpopkinh/Pvivax_MIPs/fastqs/SE/SRR5099324.fastq.gz	SRR5099324/SRR5099324.fastq.gz
+SRR5099325	/pine/scr/z/p/zpopkinh/Pvivax_MIPs/fastqs/SE/SRR5099325.fastq.gz	SRR5099325/SRR5099325.fastq.gz
+SRR5099326	/pine/scr/z/p/zpopkinh/Pvivax_MIPs/fastqs/SE/SRR5099326.fastq.gz	SRR5099326/SRR5099326.fastq.gz
+SRR5278291	/pine/scr/z/p/zpopkinh/Pvivax_MIPs/fastqs/SE/SRR5278291.fastq.gz	SRR5278291/SRR5278291.fastq.gz
+SRR5278295	/pine/scr/z/p/zpopkinh/Pvivax_MIPs/fastqs/SE/SRR5278295.fastq.gz	SRR5278295/SRR5278295.fastq.gz
+SRR5278301	/pine/scr/z/p/zpopkinh/Pvivax_MIPs/fastqs/SE/SRR5278301.fastq.gz	SRR5278301/SRR5278301.fastq.gz
+SRR5278298	/pine/scr/z/p/zpopkinh/Pvivax_MIPs/fastqs/SE/SRR5278298.fastq.gz	SRR5278298/SRR5278298.fastq.gz
+SRR5278293	/pine/scr/z/p/zpopkinh/Pvivax_MIPs/fastqs/SE/SRR5278293.fastq.gz	SRR5278293/SRR5278293.fastq.gz

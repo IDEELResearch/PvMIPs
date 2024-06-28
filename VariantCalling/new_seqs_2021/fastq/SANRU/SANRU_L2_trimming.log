@@ -1,0 +1,188 @@
+This is cutadapt 2.9 with Python 3.6.6
+Command line parameters: --interleaved -a file:/nas02/apps/trimmomatic-0.36/Trimmomatic-0.36/adapters/TruSeq3-PE.fa -A file:/nas02/apps/trimmomatic-0.36/Trimmomatic-0.36/adapters/TruSeq3-PE.fa -m 30 /nas/longleaf/home/zpopkinh/Pvivax_resources/new_seqs_2021/fastq/SANRU/SANRU_L2_1.fastq.gz /nas/longleaf/home/zpopkinh/Pvivax_resources/new_seqs_2021/fastq/SANRU/SANRU_L2_2.fastq.gz
+Processing reads on 1 core in paired-end mode ...
+Finished in 20035.41 s (87 us/read; 0.69 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:        229,223,554
+  Read 1 with adapter:               8,183,668 (3.6%)
+  Read 2 with adapter:               9,246,110 (4.0%)
+Pairs written (passing filters):   229,223,480 (100.0%)
+
+Total basepairs processed: 68,767,066,200 bp
+  Read 1: 34,383,533,100 bp
+  Read 2: 34,383,533,100 bp
+Total written (filtered):  68,709,157,742 bp (99.9%)
+  Read 1: 34,356,145,841 bp
+  Read 2: 34,353,011,901 bp
+
+=== First read: Adapter PrefixPE/1 ===
+
+Sequence: TACACTCTTTCCCTACACGACGCTCTTCCGATCT; Type: regular 3'; Length: 34; Trimmed: 4007071 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 23.7%
+  C: 19.8%
+  G: 22.6%
+  T: 33.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	2818313	3581618.0	0	2818313
+4	890831	895404.5	0	890831
+5	219691	223851.1	0	219691
+6	41028	55962.8	0	41028
+7	9351	13990.7	0	9351
+8	1966	3497.7	0	1966
+9	10359	874.4	0	795 9564
+10	10589	218.6	1	306 10283
+11	3788	54.7	1	58 3730
+12	781	13.7	1	15 766
+13	213	3.4	1	1 212
+14	81	0.9	1	0 81
+15	22	0.2	1	0 22
+51	1	0.0	3	0 0 1
+67	1	0.0	3	0 0 1
+121	1	0.0	3	0 0 1
+124	2	0.0	3	2
+126	2	0.0	3	2
+129	1	0.0	3	0 0 0 1
+130	2	0.0	3	2
+133	5	0.0	3	0 2 3
+134	4	0.0	3	4
+135	6	0.0	3	1 1 4
+136	6	0.0	3	3 0 1 2
+139	2	0.0	3	1 1
+140	2	0.0	3	1 0 1
+142	3	0.0	3	1 0 1 1
+143	1	0.0	3	0 0 0 1
+144	1	0.0	3	1
+145	2	0.0	3	0 0 2
+146	3	0.0	3	0 3
+147	1	0.0	3	1
+148	3	0.0	3	0 1 0 2
+150	9	0.0	3	0 1 3 5
+
+
+=== First read: Adapter PrefixPE/2 ===
+
+Sequence: GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT; Type: regular 3'; Length: 34; Trimmed: 4176597 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 23.1%
+  C: 19.2%
+  G: 28.3%
+  T: 29.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	3286174	3581618.0	0	3286174
+4	725081	895404.5	0	725081
+5	120708	223851.1	0	120708
+6	26580	55962.8	0	26580
+7	6853	13990.7	0	6853
+8	1083	3497.7	0	1083
+9	4389	874.4	0	232 4157
+10	3925	218.6	1	85 3840
+11	1387	54.7	1	12 1375
+12	352	13.7	1	0 352
+13	62	3.4	1	0 62
+14	1	0.9	1	0 1
+15	2	0.2	1	0 2
+
+
+=== Second read: Adapter PrefixPE/1 ===
+
+Sequence: TACACTCTTTCCCTACACGACGCTCTTCCGATCT; Type: regular 3'; Length: 34; Trimmed: 3541533 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 26.2%
+  C: 21.7%
+  G: 24.8%
+  T: 27.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	2397138	3581618.0	0	2397138
+4	859568	895404.5	0	859568
+5	208691	223851.1	0	208691
+6	39899	55962.8	0	39899
+7	9337	13990.7	0	9337
+8	1995	3497.7	0	1995
+9	9755	874.4	0	688 9067
+10	10356	218.6	1	279 10077
+11	3585	54.7	1	46 3539
+12	850	13.7	1	22 828
+13	233	3.4	1	2 231
+14	107	0.9	1	0 107
+15	18	0.2	1	0 18
+19	1	0.0	1	0 0 1
+
+
+=== Second read: Adapter PrefixPE/2 ===
+
+Sequence: GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT; Type: regular 3'; Length: 34; Trimmed: 5704577 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 24.3%
+  C: 21.6%
+  G: 31.9%
+  T: 22.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	4817502	3581618.0	0	4817502
+4	716522	895404.5	0	716522
+5	124311	223851.1	0	124311
+6	26602	55962.8	0	26602
+7	7147	13990.7	0	7147
+8	1346	3497.7	0	1346
+9	4799	874.4	0	229 4570
+10	4331	218.6	1	92 4239
+11	1483	54.7	1	9 1474
+12	395	13.7	1	6 389
+13	87	3.4	1	1 86
+14	7	0.9	1	0 7
+15	2	0.2	1	0 2
+16	3	0.1	1	0 3
+17	2	0.0	1	1 1
+18	1	0.0	1	0 1
+19	1	0.0	1	0 1
+20	1	0.0	2	0 0 1
+29	1	0.0	2	0 0 1
+34	1	0.0	3	0 0 1
+37	1	0.0	3	1
+38	1	0.0	3	0 0 1
+43	1	0.0	3	0 0 0 1
+45	1	0.0	3	0 0 0 1
+47	1	0.0	3	0 0 1
+48	1	0.0	3	0 0 0 1
+49	1	0.0	3	0 0 0 1
+53	1	0.0	3	0 0 0 1
+57	1	0.0	3	0 0 1
+63	1	0.0	3	0 0 0 1
+66	1	0.0	3	0 0 0 1
+68	1	0.0	3	0 0 0 1
+70	1	0.0	3	0 0 1
+71	1	0.0	3	0 0 1
+120	1	0.0	3	0 0 0 1
+121	5	0.0	3	0 1 2 2
+122	12	0.0	3	0 6 4 2
+123	1	0.0	3	0 0 1
