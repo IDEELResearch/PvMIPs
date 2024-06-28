@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+parasight76.pl -showseq /opt/analysis/AMA1/AMA1.show -extra /opt/analysis/AMA1/AMA1.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/AMA1/AMA1.precode -die
+parasight76.pl -showseq /opt/analysis/TRAG36-1/TRAG36-1.show -extra /opt/analysis/TRAG36-1/TRAG36-1.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/TRAG36-1/TRAG36-1.precode -die
+parasight76.pl -showseq /opt/analysis/DBP2/DBP2.show -extra /opt/analysis/DBP2/DBP2.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/DBP2/DBP2.precode -die
+parasight76.pl -showseq /opt/analysis/CRT/CRT.show -extra /opt/analysis/CRT/CRT.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/CRT/CRT.precode -die
+parasight76.pl -showseq /opt/analysis/RBP2b/RBP2b.show -extra /opt/analysis/RBP2b/RBP2b.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/RBP2b/RBP2b.precode -die
+parasight76.pl -showseq /opt/analysis/CSP/CSP.show -extra /opt/analysis/CSP/CSP.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/CSP/CSP.precode -die
+parasight76.pl -showseq /opt/analysis/DBP/DBP.show -extra /opt/analysis/DBP/DBP.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/DBP/DBP.precode -die
+parasight76.pl -showseq /opt/analysis/TRAG38/TRAG38.show -extra /opt/analysis/TRAG38/TRAG38.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/TRAG38/TRAG38.precode -die
+parasight76.pl -showseq /opt/analysis/GAMA/GAMA.show -extra /opt/analysis/GAMA/GAMA.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/GAMA/GAMA.precode -die
+parasight76.pl -showseq /opt/analysis/DHFR-TS/DHFR-TS.show -extra /opt/analysis/DHFR-TS/DHFR-TS.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/DHFR-TS/DHFR-TS.precode -die
+parasight76.pl -showseq /opt/analysis/TRAG11/TRAG11.show -extra /opt/analysis/TRAG11/TRAG11.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/TRAG11/TRAG11.precode -die
+parasight76.pl -showseq /opt/analysis/RBP2c/RBP2c.show -extra /opt/analysis/RBP2c/RBP2c.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/RBP2c/RBP2c.precode -die
+parasight76.pl -showseq /opt/analysis/MDR1/MDR1.show -extra /opt/analysis/MDR1/MDR1.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/MDR1/MDR1.precode -die
+parasight76.pl -showseq /opt/analysis/TRAG34/TRAG34.show -extra /opt/analysis/TRAG34/TRAG34.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/TRAG34/TRAG34.precode -die
+parasight76.pl -showseq /opt/analysis/RBP1b/RBP1b.show -extra /opt/analysis/RBP1b/RBP1b.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/RBP1b/RBP1b.precode -die
+parasight76.pl -showseq /opt/analysis/RBP1a/RBP1a.show -extra /opt/analysis/RBP1a/RBP1a.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/RBP1a/RBP1a.precode -die
+parasight76.pl -showseq /opt/analysis/MSP1/MSP1.show -extra /opt/analysis/MSP1/MSP1.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/MSP1/MSP1.precode -die
+parasight76.pl -showseq /opt/analysis/TRAG21/TRAG21.show -extra /opt/analysis/TRAG21/TRAG21.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/TRAG21/TRAG21.precode -die
+parasight76.pl -showseq /opt/analysis/RBP2a/RBP2a.show -extra /opt/analysis/RBP2a/RBP2a.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/RBP2a/RBP2a.precode -die
+parasight76.pl -showseq /opt/analysis/PPPK-DHPS/PPPK-DHPS.show -extra /opt/analysis/PPPK-DHPS/PPPK-DHPS.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/PPPK-DHPS/PPPK-DHPS.precode -die
+parasight76.pl -showseq /opt/analysis/TRAG22/TRAG22.show -extra /opt/analysis/TRAG22/TRAG22.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/TRAG22/TRAG22.precode -die
+parasight76.pl -showseq /opt/analysis/TRAG19/TRAG19.show -extra /opt/analysis/TRAG19/TRAG19.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/TRAG19/TRAG19.precode -die
+parasight76.pl -showseq /opt/analysis/TRAG26/TRAG26.show -extra /opt/analysis/TRAG26/TRAG26.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/TRAG26/TRAG26.precode -die
+parasight76.pl -showseq /opt/analysis/TRAG36-2/TRAG36-2.show -extra /opt/analysis/TRAG36-2/TRAG36-2.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/TRAG36-2/TRAG36-2.precode -die
+parasight76.pl -showseq /opt/analysis/TRAG32/TRAG32.show -extra /opt/analysis/TRAG32/TRAG32.extra -template /opt/resources/nolabel.pst -precode file:/opt/analysis/TRAG32/TRAG32.precode -die

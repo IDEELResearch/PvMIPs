@@ -1,0 +1,2 @@
+#name1	strand1	zstart1	end1	length1	name2	strand2	zstart2	end2	zstart2+	end2+	length2	identity	idPct	coverage	covPct
+MAF5-471_C0	+	0	421	421	MAF5-471_ref	+	0	421	0	421	421	421/421	100.0%	421/421	100.0%

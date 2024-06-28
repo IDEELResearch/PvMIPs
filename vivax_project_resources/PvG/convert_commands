@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+cd /opt/project_resources/pdfs
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=merged.pdf AMA1.pdf TRAG36-1.pdf DBP2.pdf CRT.pdf RBP2b.pdf CSP.pdf DBP.pdf TRAG38.pdf GAMA.pdf DHFR-TS.pdf TRAG11.pdf RBP2c.pdf MDR1.pdf TRAG34.pdf RBP1b.pdf RBP1a.pdf MSP1.pdf TRAG21.pdf RBP2a.pdf PPPK-DHPS.pdf TRAG22.pdf TRAG19.pdf TRAG26.pdf TRAG36-2.pdf TRAG32.pdf

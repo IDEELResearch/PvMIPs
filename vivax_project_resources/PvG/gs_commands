@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/AMA1/AMA1.pdf /opt/analysis/AMA1/AMA1.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/TRAG36-1/TRAG36-1.pdf /opt/analysis/TRAG36-1/TRAG36-1.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/DBP2/DBP2.pdf /opt/analysis/DBP2/DBP2.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/CRT/CRT.pdf /opt/analysis/CRT/CRT.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/RBP2b/RBP2b.pdf /opt/analysis/RBP2b/RBP2b.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/CSP/CSP.pdf /opt/analysis/CSP/CSP.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/DBP/DBP.pdf /opt/analysis/DBP/DBP.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/TRAG38/TRAG38.pdf /opt/analysis/TRAG38/TRAG38.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/GAMA/GAMA.pdf /opt/analysis/GAMA/GAMA.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/DHFR-TS/DHFR-TS.pdf /opt/analysis/DHFR-TS/DHFR-TS.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/TRAG11/TRAG11.pdf /opt/analysis/TRAG11/TRAG11.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/RBP2c/RBP2c.pdf /opt/analysis/RBP2c/RBP2c.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/MDR1/MDR1.pdf /opt/analysis/MDR1/MDR1.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/TRAG34/TRAG34.pdf /opt/analysis/TRAG34/TRAG34.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/RBP1b/RBP1b.pdf /opt/analysis/RBP1b/RBP1b.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/RBP1a/RBP1a.pdf /opt/analysis/RBP1a/RBP1a.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/MSP1/MSP1.pdf /opt/analysis/MSP1/MSP1.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/TRAG21/TRAG21.pdf /opt/analysis/TRAG21/TRAG21.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/RBP2a/RBP2a.pdf /opt/analysis/RBP2a/RBP2a.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/PPPK-DHPS/PPPK-DHPS.pdf /opt/analysis/PPPK-DHPS/PPPK-DHPS.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/TRAG22/TRAG22.pdf /opt/analysis/TRAG22/TRAG22.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/TRAG19/TRAG19.pdf /opt/analysis/TRAG19/TRAG19.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/TRAG26/TRAG26.pdf /opt/analysis/TRAG26/TRAG26.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/TRAG36-2/TRAG36-2.pdf /opt/analysis/TRAG36-2/TRAG36-2.01.01.ps
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dAutoRotatePages=/All -sOutputFile=/opt/analysis/TRAG32/TRAG32.pdf /opt/analysis/TRAG32/TRAG32.01.01.ps
