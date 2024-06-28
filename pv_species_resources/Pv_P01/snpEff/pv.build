@@ -1,0 +1,137 @@
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'build'
+00:00:00	Building database for 'pf'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'pf'
+00:00:00	Reading config file: /opt/programs/snpEff/snpEff.config
+00:00:00	done
+Reading GFF3 data file  : '/opt/programs/snpEff/./data/pf/genes.gff'
+....................................................................................................
+		10000	....................................................................................................
+		20000	............................................................
+	Total: 26016 markers added.
+
+	Create exons from CDS (if needed): 
+	Exons created for 0 transcripts.
+
+	Deleting redundant exons (if needed): 
+		Total transcripts with deleted exons: 0
+
+	Collapsing zero length introns (if needed): 
+		Total collapsed transcripts: 0
+	Reading sequences   :
+	FASTA file: '/opt/programs/snpEff/./data/genomes/pf.fa' not found.
+	Reading FASTA file: '/opt/programs/snpEff/./data/pf/sequences.fa'
+		Reading sequence '5', length: 1343557
+		Adding genomic sequences to exons: 	Done (828 sequences added, 0 ignored).
+		Reading sequence '10', length: 1687656
+		Adding genomic sequences to exons: 	Done (1139 sequences added, 0 ignored).
+		Reading sequence '7', length: 1445207
+		Adding genomic sequences to exons: 	Done (771 sequences added, 0 ignored).
+		Reading sequence '3', length: 1067971
+		Adding genomic sequences to exons: 	Done (660 sequences added, 0 ignored).
+		Reading sequence '13', length: 2925236
+		Adding genomic sequences to exons: 	Done (1854 sequences added, 0 ignored).
+		Reading sequence '11', length: 2038340
+		Adding genomic sequences to exons: 	Done (1392 sequences added, 0 ignored).
+		Reading sequence '14', length: 3291936
+		Adding genomic sequences to exons: 	Done (2215 sequences added, 0 ignored).
+		Reading sequence '9', length: 1541735
+		Adding genomic sequences to exons: 	Done (1035 sequences added, 0 ignored).
+		Reading sequence '1', length: 640851
+		Adding genomic sequences to exons: 	Done (397 sequences added, 0 ignored).
+		Reading sequence '12', length: 2271494
+		Adding genomic sequences to exons: 	Done (1424 sequences added, 0 ignored).
+		Reading sequence '8', length: 1472805
+		Adding genomic sequences to exons: 	Done (878 sequences added, 0 ignored).
+		Reading sequence '6', length: 1418242
+		Adding genomic sequences to exons: 	Done (880 sequences added, 0 ignored).
+		Reading sequence '4', length: 1200490
+		Adding genomic sequences to exons: 	Done (678 sequences added, 0 ignored).
+		Reading sequence '2', length: 947102
+		Adding genomic sequences to exons: 	Done (631 sequences added, 0 ignored).
+		Reading sequence 'M', length: 5967
+		Adding genomic sequences to exons: 	Done (43 sequences added, 0 ignored).
+		Reading sequence 'P', length: 34242
+		Adding genomic sequences to exons: 	Done (69 sequences added, 0 ignored).
+	Total: 14894 sequences added, 0 sequences ignored.
+
+	Adjusting transcripts: 
+	Adjusting genes: 
+	Adjusting chromosomes lengths: 
+	Ranking exons: ..........................................................
+	Create UTRs from CDS (if needed): 
+	Correcting exons based on frame information.
+	
+	Remove empty chromosomes: 
+
+	Marking as 'coding' from CDS information: 
+	Done: 0 transcripts marked
+#-----------------------------------------------
+# Genome name                : 'Plasmodium falciparum'
+# Genome version             : 'pf'
+# Genome ID                  : 'pf[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5712
+# Protein coding genes       : 5539
+#-----------------------------------------------
+# Transcripts                : 5800
+# Avg. transcripts per gene  : 1.02
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 5627
+#              Length errors :     44 ( 0.78% )
+#  STOP codons in CDS errors :    120 ( 2.13% )
+#         START codon errors :    161 ( 2.86% )
+#        STOP codon warnings :     80 ( 1.42% )
+#              UTR sequences :      9 ( 0.16% )
+#               Total Errors :    188 ( 3.34% )
+#-----------------------------------------------
+# Cds                        : 14642
+# Exons                      : 14894
+# Exons with sequence        : 14894
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 2.57
+# WARNING!                   : Mitochondrion chromosome 'M' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 16
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'14'	3291936	Standard
+#		'13'	2925236	Standard
+#		'12'	2271494	Standard
+#		'11'	2038340	Standard
+#		'10'	1687656	Standard
+#		'9'	1541735	Standard
+#		'8'	1472805	Standard
+#		'7'	1445207	Standard
+#		'6'	1418242	Standard
+#		'5'	1343557	Standard
+#		'4'	1200490	Standard
+#		'3'	1067971	Standard
+#		'2'	947102	Standard
+#		'1'	640851	Standard
+#		'P'	34242	Standard
+#		'M'	5967	Standard
+#-----------------------------------------------
+
+00:00:03	Caracterizing exons by splicing (stage 1) : 
+	..............
+00:00:03	Caracterizing exons by splicing (stage 2) : 
+	..............00:00:03	done.
+00:00:03	[Optional] Rare amino acid annotations
+00:00:03	Warning: Cannot read optional protein sequence file '/opt/programs/snpEff/./data/pf/protein.fa', nothing done.
+00:00:03	Saving database
+00:00:05	[Optional] Reading regulation elements: GFF
+00:00:05	Warning: Cannot read optional regulation file '/opt/programs/snpEff/./data/pf/regulation.gff', nothing done.
+00:00:05	[Optional] Reading regulation elements: BED 
+00:00:05	Cannot find optional regulation dir '/opt/programs/snpEff/./data/pf/regulation.bed/', nothing done.
+00:00:05	[Optional] Reading motifs: GFF
+00:00:05	Warning: Cannot open PWMs file /opt/programs/snpEff/./data/pf/pwms.bin. Nothing done
+00:00:05	Done
+00:00:05	Logging
+00:00:06	Checking for updates...
+00:00:07	Done.

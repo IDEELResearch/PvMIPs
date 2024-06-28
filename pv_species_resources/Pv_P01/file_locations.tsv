@@ -1,0 +1,16 @@
+## Locations of various genome files
+#############################################################################
+################ Plasmodium vivax strain P01files  ##########################
+pv	fasta_genome	/opt/species_resources/genomes/genome.fa
+pv	bowtie2_genome	/opt/species_resources/genomes/genome
+pv	bwa_genome	/opt/species_resources/genomes/genome
+pv	genome_dict	/opt/species_resources/genomes/genome.dict
+pv	snps	/opt/species_resources/SNPs/raw_GT_only.vcf.gz
+pv	alias	/opt/species_resources/genomes/alias.dic
+pv	snpeff_dir	/opt/species_resources/snpEff/
+pv	snpeff_db	PvP01
+pv	refgene_tabix	/opt/species_resources/genomes/PvP01_genepred.txt.gz
+############################################################################
+##################################    hg38 Files      ######################
+hg38	bowtie2_genome	/opt/host_species/genome
+hg38	fasta_genome	/opt/host_species/genome.fa.gz
