@@ -1,0 +1,3 @@
+accessions: /nas/longleaf/home/zpopkinh/Pvivax_resources/scrape_pubseqs/ENA_master_acc_download_map_SE.tab.txt
+scratch: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/public_se_seqs/logs/
+outputdir: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/public_se_seqs/

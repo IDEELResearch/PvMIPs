@@ -1,0 +1,12 @@
+     Genome indexes for use with BWA are available
+       in /proj/seq/data on longleaf.
+     bwa/bowtie/bowtie2 indexes are located in "Sequence" directory
+       under the top level genome directory with name in CAPS, e.g. MM9_UCSC
+     Genome indexes for use with BWA are available
+       in /proj/seq/data on longleaf.
+     bwa/bowtie/bowtie2 indexes are located in "Sequence" directory
+       under the top level genome directory with name in CAPS, e.g. MM9_UCSC
+Building DAG of jobs...
+Error: Directory cannot be locked. Please make sure that no other Snakemake process is trying to create the same files in the following directory:
+/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_pe_improved_global
+If you are sure that no other instances of snakemake are running on this directory, the remaining lock was likely caused by a kill signal or a power loss. It can be removed with the --unlock argument.

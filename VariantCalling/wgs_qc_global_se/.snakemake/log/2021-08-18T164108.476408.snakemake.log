@@ -1,0 +1,971 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 1028
+Job counts:
+	count	jobs
+	10	aggregate_callable
+	1	all
+	10	aln_summary_metrics
+	10	callable_loci
+	1	create_report
+	10	flagstats
+	1	make_interval_files
+	10	validate_sam
+	53
+
+[Wed Aug 18 16:41:09 2021]
+rule validate_sam:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5098034.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5098034.isvalid
+    jobid: 29
+    wildcards: sample=SRR5098034
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			ValidateSamFile \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5098034.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5098034.isvalid \
+			MODE=SUMMARY
+		
+Submitted job 29 with external jobid 'Submitted batch job 25045010'.
+
+[Wed Aug 18 16:41:10 2021]
+rule validate_sam:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278301.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278301.isvalid
+    jobid: 30
+    wildcards: sample=SRR5278301
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			ValidateSamFile \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278301.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278301.isvalid \
+			MODE=SUMMARY
+		
+Submitted job 30 with external jobid 'Submitted batch job 25045011'.
+
+[Wed Aug 18 16:41:11 2021]
+rule aln_summary_metrics:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278295.bam, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278295.AlignmentSummaryMetrics.txt
+    jobid: 6
+    wildcards: sample=SRR5278295
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			CollectAlignmentSummaryMetrics \
+			REFERENCE_SEQUENCE=/proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278295.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278295.AlignmentSummaryMetrics.txt
+		
+Submitted job 6 with external jobid 'Submitted batch job 25045012'.
+
+[Wed Aug 18 16:41:13 2021]
+rule flagstats:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278291.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278291.flagstats
+    jobid: 18
+    wildcards: sample=SRR5278291
+
+
+		samtools flagstat /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278291.bam >/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278291.flagstats
+		
+Submitted job 18 with external jobid 'Submitted batch job 25045013'.
+
+[Wed Aug 18 16:41:14 2021]
+rule aln_summary_metrics:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099325.bam, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099325.AlignmentSummaryMetrics.txt
+    jobid: 2
+    wildcards: sample=SRR5099325
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			CollectAlignmentSummaryMetrics \
+			REFERENCE_SEQUENCE=/proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099325.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099325.AlignmentSummaryMetrics.txt
+		
+Submitted job 2 with external jobid 'Submitted batch job 25045014'.
+
+[Wed Aug 18 16:41:16 2021]
+rule make_interval_files:
+    input: /nas/longleaf/home/zpopkinh/Pvivax_resources/regions/chroms.bed
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed
+    jobid: 52
+    wildcards: region=.
+
+Submitted job 52 with external jobid 'Submitted batch job 25045015'.
+
+[Wed Aug 18 16:41:16 2021]
+rule validate_sam:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278295.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278295.isvalid
+    jobid: 26
+    wildcards: sample=SRR5278295
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			ValidateSamFile \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278295.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278295.isvalid \
+			MODE=SUMMARY
+		
+Submitted job 26 with external jobid 'Submitted batch job 25045016'.
+
+[Wed Aug 18 16:41:17 2021]
+rule validate_sam:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRP081144.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRP081144.isvalid
+    jobid: 27
+    wildcards: sample=SRP081144
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			ValidateSamFile \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRP081144.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRP081144.isvalid \
+			MODE=SUMMARY
+		
+Submitted job 27 with external jobid 'Submitted batch job 25045017'.
+
+[Wed Aug 18 16:41:17 2021]
+rule flagstats:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099325.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099325.flagstats
+    jobid: 12
+    wildcards: sample=SRR5099325
+
+
+		samtools flagstat /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099325.bam >/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099325.flagstats
+		
+Submitted job 12 with external jobid 'Submitted batch job 25045018'.
+
+[Wed Aug 18 16:41:18 2021]
+rule validate_sam:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278298.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278298.isvalid
+    jobid: 31
+    wildcards: sample=SRR5278298
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			ValidateSamFile \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278298.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278298.isvalid \
+			MODE=SUMMARY
+		
+Submitted job 31 with external jobid 'Submitted batch job 25045019'.
+
+[Wed Aug 18 16:41:19 2021]
+rule validate_sam:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099324.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099324.isvalid
+    jobid: 23
+    wildcards: sample=SRR5099324
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			ValidateSamFile \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099324.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099324.isvalid \
+			MODE=SUMMARY
+		
+Submitted job 23 with external jobid 'Submitted batch job 25045020'.
+
+[Wed Aug 18 16:41:19 2021]
+rule aln_summary_metrics:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278291.bam, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278291.AlignmentSummaryMetrics.txt
+    jobid: 8
+    wildcards: sample=SRR5278291
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			CollectAlignmentSummaryMetrics \
+			REFERENCE_SEQUENCE=/proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278291.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278291.AlignmentSummaryMetrics.txt
+		
+Submitted job 8 with external jobid 'Submitted batch job 25045021'.
+
+[Wed Aug 18 16:41:20 2021]
+rule validate_sam:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278293.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278293.isvalid
+    jobid: 24
+    wildcards: sample=SRR5278293
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			ValidateSamFile \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278293.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278293.isvalid \
+			MODE=SUMMARY
+		
+Submitted job 24 with external jobid 'Submitted batch job 25045022'.
+
+[Wed Aug 18 16:41:20 2021]
+rule validate_sam:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099326.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099326.isvalid
+    jobid: 25
+    wildcards: sample=SRR5099326
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			ValidateSamFile \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099326.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099326.isvalid \
+			MODE=SUMMARY
+		
+Submitted job 25 with external jobid 'Submitted batch job 25045023'.
+
+[Wed Aug 18 16:41:21 2021]
+rule aln_summary_metrics:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278298.bam, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278298.AlignmentSummaryMetrics.txt
+    jobid: 11
+    wildcards: sample=SRR5278298
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			CollectAlignmentSummaryMetrics \
+			REFERENCE_SEQUENCE=/proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278298.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278298.AlignmentSummaryMetrics.txt
+		
+Submitted job 11 with external jobid 'Submitted batch job 25045024'.
+
+[Wed Aug 18 16:41:22 2021]
+rule flagstats:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278295.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278295.flagstats
+    jobid: 16
+    wildcards: sample=SRR5278295
+
+
+		samtools flagstat /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278295.bam >/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278295.flagstats
+		
+Submitted job 16 with external jobid 'Submitted batch job 25045025'.
+
+[Wed Aug 18 16:41:22 2021]
+rule flagstats:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRP081144.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRP081144.flagstats
+    jobid: 17
+    wildcards: sample=SRP081144
+
+
+		samtools flagstat /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRP081144.bam >/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRP081144.flagstats
+		
+Submitted job 17 with external jobid 'Submitted batch job 25045026'.
+
+[Wed Aug 18 16:41:23 2021]
+rule aln_summary_metrics:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099326.bam, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099326.AlignmentSummaryMetrics.txt
+    jobid: 5
+    wildcards: sample=SRR5099326
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			CollectAlignmentSummaryMetrics \
+			REFERENCE_SEQUENCE=/proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099326.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099326.AlignmentSummaryMetrics.txt
+		
+Submitted job 5 with external jobid 'Submitted batch job 25045029'.
+
+[Wed Aug 18 16:41:24 2021]
+rule aln_summary_metrics:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278293.bam, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278293.AlignmentSummaryMetrics.txt
+    jobid: 4
+    wildcards: sample=SRR5278293
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			CollectAlignmentSummaryMetrics \
+			REFERENCE_SEQUENCE=/proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278293.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278293.AlignmentSummaryMetrics.txt
+		
+Submitted job 4 with external jobid 'Submitted batch job 25045030'.
+
+[Wed Aug 18 16:41:24 2021]
+rule flagstats:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5098034.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5098034.flagstats
+    jobid: 19
+    wildcards: sample=SRR5098034
+
+
+		samtools flagstat /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5098034.bam >/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5098034.flagstats
+		
+Submitted job 19 with external jobid 'Submitted batch job 25045031'.
+
+[Wed Aug 18 16:41:25 2021]
+rule flagstats:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278301.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278301.flagstats
+    jobid: 20
+    wildcards: sample=SRR5278301
+
+
+		samtools flagstat /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278301.bam >/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278301.flagstats
+		
+Submitted job 20 with external jobid 'Submitted batch job 25045032'.
+
+[Wed Aug 18 16:41:25 2021]
+rule aln_summary_metrics:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099324.bam, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099324.AlignmentSummaryMetrics.txt
+    jobid: 3
+    wildcards: sample=SRR5099324
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			CollectAlignmentSummaryMetrics \
+			REFERENCE_SEQUENCE=/proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099324.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099324.AlignmentSummaryMetrics.txt
+		
+Submitted job 3 with external jobid 'Submitted batch job 25045033'.
+
+[Wed Aug 18 16:41:26 2021]
+rule validate_sam:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278291.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278291.isvalid
+    jobid: 28
+    wildcards: sample=SRR5278291
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			ValidateSamFile \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278291.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278291.isvalid \
+			MODE=SUMMARY
+		
+Submitted job 28 with external jobid 'Submitted batch job 25045034'.
+
+[Wed Aug 18 16:41:26 2021]
+rule flagstats:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099324.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099324.flagstats
+    jobid: 13
+    wildcards: sample=SRR5099324
+
+
+		samtools flagstat /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099324.bam >/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099324.flagstats
+		
+Submitted job 13 with external jobid 'Submitted batch job 25045035'.
+
+[Wed Aug 18 16:41:27 2021]
+rule flagstats:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278293.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278293.flagstats
+    jobid: 14
+    wildcards: sample=SRR5278293
+
+
+		samtools flagstat /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278293.bam >/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278293.flagstats
+		
+Submitted job 14 with external jobid 'Submitted batch job 25045036'.
+
+[Wed Aug 18 16:41:28 2021]
+rule aln_summary_metrics:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5098034.bam, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5098034.AlignmentSummaryMetrics.txt
+    jobid: 9
+    wildcards: sample=SRR5098034
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			CollectAlignmentSummaryMetrics \
+			REFERENCE_SEQUENCE=/proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5098034.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5098034.AlignmentSummaryMetrics.txt
+		
+Submitted job 9 with external jobid 'Submitted batch job 25045037'.
+
+[Wed Aug 18 16:41:28 2021]
+rule flagstats:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099326.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099326.flagstats
+    jobid: 15
+    wildcards: sample=SRR5099326
+
+
+		samtools flagstat /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099326.bam >/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099326.flagstats
+		
+Submitted job 15 with external jobid 'Submitted batch job 25045038'.
+
+[Wed Aug 18 16:41:29 2021]
+rule aln_summary_metrics:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278301.bam, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278301.AlignmentSummaryMetrics.txt
+    jobid: 10
+    wildcards: sample=SRR5278301
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			CollectAlignmentSummaryMetrics \
+			REFERENCE_SEQUENCE=/proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278301.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278301.AlignmentSummaryMetrics.txt
+		
+Submitted job 10 with external jobid 'Submitted batch job 25045039'.
+
+[Wed Aug 18 16:41:29 2021]
+rule validate_sam:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099325.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099325.isvalid
+    jobid: 22
+    wildcards: sample=SRR5099325
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			ValidateSamFile \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099325.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099325.isvalid \
+			MODE=SUMMARY
+		
+Submitted job 22 with external jobid 'Submitted batch job 25045040'.
+
+[Wed Aug 18 16:41:30 2021]
+rule aln_summary_metrics:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRP081144.bam, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRP081144.AlignmentSummaryMetrics.txt
+    jobid: 7
+    wildcards: sample=SRP081144
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas02/apps/picard-2.10.3/picard-2.10.3/picard.jar \
+			CollectAlignmentSummaryMetrics \
+			REFERENCE_SEQUENCE=/proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			INPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRP081144.bam \
+			OUTPUT=/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRP081144.AlignmentSummaryMetrics.txt
+		
+Submitted job 7 with external jobid 'Submitted batch job 25045041'.
+
+[Wed Aug 18 16:41:30 2021]
+rule flagstats:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278298.bam
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278298.flagstats
+    jobid: 21
+    wildcards: sample=SRR5278298
+
+
+		samtools flagstat /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278298.bam >/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278298.flagstats
+		
+Submitted job 21 with external jobid 'Submitted batch job 25045042'.
+[Wed Aug 18 16:41:41 2021]
+Finished job 7.
+1 of 53 steps (2%) done
+[Wed Aug 18 16:41:41 2021]
+Finished job 52.
+2 of 53 steps (4%) done
+
+[Wed Aug 18 16:41:41 2021]
+rule callable_loci:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278293.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278293/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278293/..callable_summary.txt
+    jobid: 44
+    wildcards: sample=SRR5278293, region=.
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas/longleaf/apps/gatk/3.8-0/GenomeAnalysisTK.jar \
+			-T CallableLoci \
+			-R /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			-I /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278293.bam \
+			-L /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed \
+			--minMappingQuality 10 \
+			--minBaseQuality 20 \
+			--minDepth 4 \
+			--maxDepth 1000000 \
+			--out /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278293/..callable.bed \
+			--summary /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278293/..callable_summary.txt
+		
+Submitted job 44 with external jobid 'Submitted batch job 25045044'.
+
+[Wed Aug 18 16:41:41 2021]
+rule callable_loci:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099326.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099326/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099326/..callable_summary.txt
+    jobid: 45
+    wildcards: sample=SRR5099326, region=.
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas/longleaf/apps/gatk/3.8-0/GenomeAnalysisTK.jar \
+			-T CallableLoci \
+			-R /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			-I /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099326.bam \
+			-L /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed \
+			--minMappingQuality 10 \
+			--minBaseQuality 20 \
+			--minDepth 4 \
+			--maxDepth 1000000 \
+			--out /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099326/..callable.bed \
+			--summary /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099326/..callable_summary.txt
+		
+[Wed Aug 18 16:41:42 2021]
+Finished job 27.
+3 of 53 steps (6%) done
+Submitted job 45 with external jobid 'Submitted batch job 25045045'.
+
+[Wed Aug 18 16:41:42 2021]
+rule callable_loci:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099324.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099324/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099324/..callable_summary.txt
+    jobid: 43
+    wildcards: sample=SRR5099324, region=.
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas/longleaf/apps/gatk/3.8-0/GenomeAnalysisTK.jar \
+			-T CallableLoci \
+			-R /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			-I /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099324.bam \
+			-L /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed \
+			--minMappingQuality 10 \
+			--minBaseQuality 20 \
+			--minDepth 4 \
+			--maxDepth 1000000 \
+			--out /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099324/..callable.bed \
+			--summary /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099324/..callable_summary.txt
+		
+Submitted job 43 with external jobid 'Submitted batch job 25045046'.
+
+[Wed Aug 18 16:41:42 2021]
+rule callable_loci:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278298.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278298/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278298/..callable_summary.txt
+    jobid: 51
+    wildcards: sample=SRR5278298, region=.
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas/longleaf/apps/gatk/3.8-0/GenomeAnalysisTK.jar \
+			-T CallableLoci \
+			-R /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			-I /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278298.bam \
+			-L /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed \
+			--minMappingQuality 10 \
+			--minBaseQuality 20 \
+			--minDepth 4 \
+			--maxDepth 1000000 \
+			--out /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278298/..callable.bed \
+			--summary /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278298/..callable_summary.txt
+		
+[Wed Aug 18 16:41:43 2021]
+Finished job 17.
+4 of 53 steps (8%) done
+Submitted job 51 with external jobid 'Submitted batch job 25045047'.
+
+[Wed Aug 18 16:41:43 2021]
+rule callable_loci:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278295.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278295/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278295/..callable_summary.txt
+    jobid: 46
+    wildcards: sample=SRR5278295, region=.
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas/longleaf/apps/gatk/3.8-0/GenomeAnalysisTK.jar \
+			-T CallableLoci \
+			-R /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			-I /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278295.bam \
+			-L /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed \
+			--minMappingQuality 10 \
+			--minBaseQuality 20 \
+			--minDepth 4 \
+			--maxDepth 1000000 \
+			--out /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278295/..callable.bed \
+			--summary /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278295/..callable_summary.txt
+		
+Submitted job 46 with external jobid 'Submitted batch job 25045048'.
+
+[Wed Aug 18 16:41:44 2021]
+rule callable_loci:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRP081144.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRP081144/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRP081144/..callable_summary.txt
+    jobid: 47
+    wildcards: sample=SRP081144, region=.
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas/longleaf/apps/gatk/3.8-0/GenomeAnalysisTK.jar \
+			-T CallableLoci \
+			-R /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			-I /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRP081144.bam \
+			-L /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed \
+			--minMappingQuality 10 \
+			--minBaseQuality 20 \
+			--minDepth 4 \
+			--maxDepth 1000000 \
+			--out /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRP081144/..callable.bed \
+			--summary /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRP081144/..callable_summary.txt
+		
+Submitted job 47 with external jobid 'Submitted batch job 25045052'.
+
+[Wed Aug 18 16:41:44 2021]
+rule callable_loci:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278301.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278301/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278301/..callable_summary.txt
+    jobid: 50
+    wildcards: sample=SRR5278301, region=.
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas/longleaf/apps/gatk/3.8-0/GenomeAnalysisTK.jar \
+			-T CallableLoci \
+			-R /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			-I /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278301.bam \
+			-L /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed \
+			--minMappingQuality 10 \
+			--minBaseQuality 20 \
+			--minDepth 4 \
+			--maxDepth 1000000 \
+			--out /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278301/..callable.bed \
+			--summary /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278301/..callable_summary.txt
+		
+Submitted job 50 with external jobid 'Submitted batch job 25045053'.
+
+[Wed Aug 18 16:41:45 2021]
+rule callable_loci:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5098034.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5098034/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5098034/..callable_summary.txt
+    jobid: 49
+    wildcards: sample=SRR5098034, region=.
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas/longleaf/apps/gatk/3.8-0/GenomeAnalysisTK.jar \
+			-T CallableLoci \
+			-R /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			-I /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5098034.bam \
+			-L /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed \
+			--minMappingQuality 10 \
+			--minBaseQuality 20 \
+			--minDepth 4 \
+			--maxDepth 1000000 \
+			--out /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5098034/..callable.bed \
+			--summary /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5098034/..callable_summary.txt
+		
+Submitted job 49 with external jobid 'Submitted batch job 25045054'.
+
+[Wed Aug 18 16:41:45 2021]
+rule callable_loci:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099325.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099325/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099325/..callable_summary.txt
+    jobid: 42
+    wildcards: sample=SRR5099325, region=.
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas/longleaf/apps/gatk/3.8-0/GenomeAnalysisTK.jar \
+			-T CallableLoci \
+			-R /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			-I /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099325.bam \
+			-L /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed \
+			--minMappingQuality 10 \
+			--minBaseQuality 20 \
+			--minDepth 4 \
+			--maxDepth 1000000 \
+			--out /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099325/..callable.bed \
+			--summary /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099325/..callable_summary.txt
+		
+Submitted job 42 with external jobid 'Submitted batch job 25045055'.
+
+[Wed Aug 18 16:41:47 2021]
+rule callable_loci:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278291.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed, /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278291/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278291/..callable_summary.txt
+    jobid: 48
+    wildcards: sample=SRR5278291, region=.
+
+
+		java -jar -Xmx8g -XX:ParallelGCThreads=3 /nas/longleaf/apps/gatk/3.8-0/GenomeAnalysisTK.jar \
+			-T CallableLoci \
+			-R /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta \
+			-I /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278291.bam \
+			-L /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/interval_lists/..bed \
+			--minMappingQuality 10 \
+			--minBaseQuality 20 \
+			--minDepth 4 \
+			--maxDepth 1000000 \
+			--out /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278291/..callable.bed \
+			--summary /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278291/..callable_summary.txt
+		
+Submitted job 48 with external jobid 'Submitted batch job 25045058'.
+[Wed Aug 18 16:41:55 2021]
+Finished job 18.
+5 of 53 steps (9%) done
+[Wed Aug 18 16:41:55 2021]
+Finished job 12.
+6 of 53 steps (11%) done
+[Wed Aug 18 16:42:07 2021]
+Finished job 15.
+7 of 53 steps (13%) done
+[Wed Aug 18 16:42:08 2021]
+Finished job 16.
+8 of 53 steps (15%) done
+[Wed Aug 18 16:42:09 2021]
+Finished job 19.
+9 of 53 steps (17%) done
+[Wed Aug 18 16:42:09 2021]
+Finished job 20.
+10 of 53 steps (19%) done
+[Wed Aug 18 16:42:09 2021]
+Finished job 13.
+11 of 53 steps (21%) done
+[Wed Aug 18 16:42:09 2021]
+Finished job 14.
+12 of 53 steps (23%) done
+[Wed Aug 18 16:42:09 2021]
+Finished job 21.
+13 of 53 steps (25%) done
+[Wed Aug 18 16:42:10 2021]
+Finished job 47.
+14 of 53 steps (26%) done
+
+[Wed Aug 18 16:42:10 2021]
+rule aggregate_callable:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRP081144.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRP081144/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRP081144/..callable_summary.txt
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRP081144.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRP081144.callable_summary.txt
+    jobid: 37
+    wildcards: sample=SRP081144
+
+Submitted job 37 with external jobid 'Submitted batch job 25045061'.
+[Wed Aug 18 16:42:20 2021]
+Finished job 29.
+15 of 53 steps (28%) done
+[Wed Aug 18 16:42:20 2021]
+Finished job 30.
+16 of 53 steps (30%) done
+[Wed Aug 18 16:42:20 2021]
+Finished job 6.
+17 of 53 steps (32%) done
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRP081144/..callable_summary.txt.
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRP081144/..callable.bed.
+[Wed Aug 18 16:42:22 2021]
+Finished job 37.
+18 of 53 steps (34%) done
+[Wed Aug 18 16:42:32 2021]
+Finished job 26.
+19 of 53 steps (36%) done
+[Wed Aug 18 16:42:45 2021]
+Finished job 8.
+20 of 53 steps (38%) done
+[Wed Aug 18 16:42:45 2021]
+Finished job 25.
+21 of 53 steps (40%) done
+[Wed Aug 18 16:42:45 2021]
+Finished job 11.
+22 of 53 steps (42%) done
+[Wed Aug 18 16:42:45 2021]
+Finished job 5.
+23 of 53 steps (43%) done
+[Wed Aug 18 16:42:45 2021]
+Finished job 3.
+24 of 53 steps (45%) done
+[Wed Aug 18 16:42:56 2021]
+Finished job 2.
+25 of 53 steps (47%) done
+[Wed Aug 18 16:42:56 2021]
+Finished job 23.
+26 of 53 steps (49%) done
+[Wed Aug 18 16:42:57 2021]
+Finished job 4.
+27 of 53 steps (51%) done
+[Wed Aug 18 16:42:57 2021]
+Finished job 9.
+28 of 53 steps (53%) done
+[Wed Aug 18 16:43:07 2021]
+Finished job 10.
+29 of 53 steps (55%) done
+[Wed Aug 18 16:43:07 2021]
+Finished job 31.
+30 of 53 steps (57%) done
+[Wed Aug 18 16:43:07 2021]
+Finished job 24.
+31 of 53 steps (58%) done
+[Wed Aug 18 16:43:07 2021]
+Finished job 28.
+32 of 53 steps (60%) done
+[Wed Aug 18 16:43:40 2021]
+Finished job 22.
+33 of 53 steps (62%) done
+[Wed Aug 18 16:43:40 2021]
+Finished job 49.
+34 of 53 steps (64%) done
+
+[Wed Aug 18 16:43:40 2021]
+rule aggregate_callable:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5098034.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5098034/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5098034/..callable_summary.txt
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5098034.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5098034.callable_summary.txt
+    jobid: 39
+    wildcards: sample=SRR5098034
+
+Submitted job 39 with external jobid 'Submitted batch job 25045074'.
+[Wed Aug 18 16:43:51 2021]
+Finished job 44.
+35 of 53 steps (66%) done
+
+[Wed Aug 18 16:43:51 2021]
+rule aggregate_callable:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278293.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278293/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278293/..callable_summary.txt
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278293.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278293.callable_summary.txt
+    jobid: 34
+    wildcards: sample=SRR5278293
+
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5098034/..callable_summary.txt.
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5098034/..callable.bed.
+[Wed Aug 18 16:43:51 2021]
+Finished job 39.
+36 of 53 steps (68%) done
+Submitted job 34 with external jobid 'Submitted batch job 25045075'.
+[Wed Aug 18 16:44:01 2021]
+Finished job 42.
+37 of 53 steps (70%) done
+
+[Wed Aug 18 16:44:01 2021]
+rule aggregate_callable:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099325.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099325/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099325/..callable_summary.txt
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099325.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099325.callable_summary.txt
+    jobid: 32
+    wildcards: sample=SRR5099325
+
+Submitted job 32 with external jobid 'Submitted batch job 25045078'.
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278293/..callable_summary.txt.
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278293/..callable.bed.
+[Wed Aug 18 16:44:11 2021]
+Finished job 34.
+38 of 53 steps (72%) done
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099325/..callable.bed.
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099325/..callable_summary.txt.
+[Wed Aug 18 16:44:11 2021]
+Finished job 32.
+39 of 53 steps (74%) done
+[Wed Aug 18 16:44:41 2021]
+Finished job 46.
+40 of 53 steps (75%) done
+
+[Wed Aug 18 16:44:41 2021]
+rule aggregate_callable:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278295.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278295/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278295/..callable_summary.txt
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278295.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278295.callable_summary.txt
+    jobid: 36
+    wildcards: sample=SRR5278295
+
+[Wed Aug 18 16:44:41 2021]
+Finished job 48.
+41 of 53 steps (77%) done
+Submitted job 36 with external jobid 'Submitted batch job 25045083'.
+
+[Wed Aug 18 16:44:42 2021]
+rule aggregate_callable:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278291.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278291/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278291/..callable_summary.txt
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278291.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278291.callable_summary.txt
+    jobid: 38
+    wildcards: sample=SRR5278291
+
+Submitted job 38 with external jobid 'Submitted batch job 25045085'.
+[Wed Aug 18 16:44:51 2021]
+Finished job 43.
+42 of 53 steps (79%) done
+
+[Wed Aug 18 16:44:51 2021]
+rule aggregate_callable:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099324.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099324/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099324/..callable_summary.txt
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099324.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099324.callable_summary.txt
+    jobid: 33
+    wildcards: sample=SRR5099324
+
+[Wed Aug 18 16:44:51 2021]
+Finished job 51.
+43 of 53 steps (81%) done
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278295/..callable_summary.txt.
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278295/..callable.bed.
+[Wed Aug 18 16:44:51 2021]
+Finished job 36.
+44 of 53 steps (83%) done
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278291/..callable.bed.
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278291/..callable_summary.txt.
+[Wed Aug 18 16:44:51 2021]
+Finished job 38.
+45 of 53 steps (85%) done
+Submitted job 33 with external jobid 'Submitted batch job 25045089'.
+
+[Wed Aug 18 16:44:52 2021]
+rule aggregate_callable:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278298.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278298/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278298/..callable_summary.txt
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278298.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278298.callable_summary.txt
+    jobid: 41
+    wildcards: sample=SRR5278298
+
+Submitted job 41 with external jobid 'Submitted batch job 25045090'.
+[Wed Aug 18 16:45:01 2021]
+Finished job 45.
+46 of 53 steps (87%) done
+
+[Wed Aug 18 16:45:02 2021]
+rule aggregate_callable:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5099326.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099326/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099326/..callable_summary.txt
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099326.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099326.callable_summary.txt
+    jobid: 35
+    wildcards: sample=SRR5099326
+
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099324/..callable.bed.
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099324/..callable_summary.txt.
+[Wed Aug 18 16:45:02 2021]
+Finished job 33.
+47 of 53 steps (89%) done
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278298/..callable.bed.
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278298/..callable_summary.txt.
+[Wed Aug 18 16:45:02 2021]
+Finished job 41.
+48 of 53 steps (91%) done
+Submitted job 35 with external jobid 'Submitted batch job 25045091'.
+[Wed Aug 18 16:45:12 2021]
+Finished job 50.
+49 of 53 steps (92%) done
+
+[Wed Aug 18 16:45:12 2021]
+rule aggregate_callable:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_se_improved_global/aln/merged/SRR5278301.bam, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278301/..callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278301/..callable_summary.txt
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278301.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278301.callable_summary.txt
+    jobid: 40
+    wildcards: sample=SRR5278301
+
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099326/..callable_summary.txt.
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5099326/..callable.bed.
+[Wed Aug 18 16:45:12 2021]
+Finished job 35.
+50 of 53 steps (94%) done
+Submitted job 40 with external jobid 'Submitted batch job 25045092'.
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278301/..callable.bed.
+Removing temporary output file /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/per_chunk/SRR5278301/..callable_summary.txt.
+[Wed Aug 18 16:45:32 2021]
+Finished job 40.
+51 of 53 steps (96%) done
+
+[Wed Aug 18 16:45:32 2021]
+rule create_report:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099325.AlignmentSummaryMetrics.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099324.AlignmentSummaryMetrics.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278293.AlignmentSummaryMetrics.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099326.AlignmentSummaryMetrics.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278295.AlignmentSummaryMetrics.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRP081144.AlignmentSummaryMetrics.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278291.AlignmentSummaryMetrics.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5098034.AlignmentSummaryMetrics.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278301.AlignmentSummaryMetrics.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278298.AlignmentSummaryMetrics.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099325.flagstats, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099324.flagstats, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278293.flagstats, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099326.flagstats, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278295.flagstats, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRP081144.flagstats, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278291.flagstats, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5098034.flagstats, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278301.flagstats, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278298.flagstats, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099325.isvalid, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099324.isvalid, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278293.isvalid, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099326.isvalid, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278295.isvalid, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRP081144.isvalid, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278291.isvalid, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5098034.isvalid, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278301.isvalid, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278298.isvalid, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099325.callable_summary.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099324.callable_summary.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278293.callable_summary.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099326.callable_summary.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278295.callable_summary.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRP081144.callable_summary.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278291.callable_summary.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5098034.callable_summary.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278301.callable_summary.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278298.callable_summary.txt, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099325.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099324.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278293.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5099326.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278295.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRP081144.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278291.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5098034.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278301.callable.bed, /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/SRR5278298.callable.bed, /nas/longleaf/home/zpopkinh/Pvivax_resources/wgs_qc_global_se/wgs_qc_report.Rmd
+    output: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/report.html
+    jobid: 1
+
+
+		Rscript -e \
+			"rmarkdown::render('/nas/longleaf/home/zpopkinh/Pvivax_resources/wgs_qc_global_se/wgs_qc_report.Rmd', clean=TRUE, output_file='/pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/report.html', output_format='html_document');"
+		
+Submitted job 1 with external jobid 'Submitted batch job 25045095'.
+[Wed Aug 18 16:45:52 2021]
+Finished job 1.
+52 of 53 steps (98%) done
+
+[Wed Aug 18 16:45:52 2021]
+localrule all:
+    input: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/qc/report.html
+    jobid: 0
+
+[Wed Aug 18 16:45:52 2021]
+Finished job 0.
+53 of 53 steps (100%) done
+Complete log: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_global_se/.snakemake/log/2021-08-18T164108.476408.snakemake.log

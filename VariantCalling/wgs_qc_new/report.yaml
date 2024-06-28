@@ -1,0 +1,3 @@
+samples: /nas/longleaf/home/zpopkinh/Pvivax_resources/new_seqs_2021/new_run_map.tab.txt 
+where: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/wgs_qc_IDEEL_pe/qc
+callable_cutoff: 0.8

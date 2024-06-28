@@ -1,0 +1,5 @@
+Building DAG of jobs...
+MissingInputException in line 98 of /nas/longleaf/home/zpopkinh/Pvivax_resources/wgs_pe_improved_global/align_wgs.snake:
+Missing input files for rule trim_and_align:
+/nas/longleaf/home/zpopkinh/Pvivax_resources/wgs_pe_improved_global/fastq/Ebro1944/Ebro1944_2.fastq.gz
+/nas/longleaf/home/zpopkinh/Pvivax_resources/wgs_pe_improved_global/fastq/Ebro1944/Ebro1944_1.fastq.gz

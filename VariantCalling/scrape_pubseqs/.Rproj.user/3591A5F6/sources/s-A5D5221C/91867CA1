@@ -1,0 +1,26 @@
+{
+    "id": "91867CA1",
+    "path": "C:/Users/zpopkinh/OneDrive - University of North Carolina at Chapel Hill/Pvivax MIP Design/VivID_Seq/scrape_pubseqs/01-scrape_ena_NGS.R",
+    "project_path": "01-scrape_ena_NGS.R",
+    "type": "r_source",
+    "hash": "2792306277",
+    "contents": "",
+    "dirty": false,
+    "created": 1625164447957.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "62,9",
+        "scrollLine": "32"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1626367190,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1626367190100,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,9 @@
+## basic config options
+ref: /proj/ideel/resources/genomes/Pvivax/genomes/PvP01.fasta
+regions: /nas/longleaf/home/zpopkinh/Pvivax_resources/regions/chroms.bed
+samples: /nas/longleaf/home/zpopkinh/Pvivax_resources/lists/all_bams.list
+max_alleles: 3
+outdir: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/vcfs_gatk_joint_raw
+tmpdir: /pine/scr/z/p/zpopkinh/Pvivax_MIPs/tmp
+mem: 24
+mode: novel
