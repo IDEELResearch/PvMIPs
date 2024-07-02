@@ -13,3 +13,5 @@ In order to run this analysis, you will need a working installation of R and RSt
 Shell scripts rely on functioning installations of bcftools, vcftools, and vcf-kit. Code was optimized using bcftools 1.16, vcftools 0.1.16, and vcf-kit 0.2.9.
 
 To design MIPs and analyze MIP sequencing data, you will need a working installation of MIPTools (v0.4.0), which can be installed from https://github.com/bailey-lab/MIPTools.
+
+Fastq files used in this study are available through SRA (BioProject ID PRJNA1117913), while a list of publicly available genomes used to design the MIP panels is available in...
